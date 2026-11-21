@@ -72,6 +72,23 @@ It never publishes the app, changes module visibility or requests a review. Do t
 2. Add a connection: paste a Post-Upload API key from [Dashboard → API Keys](https://post-upload.com/dashboard/api-keys).
 3. Test the dropdowns (profiles, Pinterest boards …), an upload, and **Watch upload events** (create the webhook, run the scenario once, then trigger an upload or use **Send a test webhook event**).
 
+## Live verification (us1, app `post-upload-ro489y` v1, 2026-11-21)
+
+Run through the Make API with a real Post-Upload connection, posting only to a Discord-only test profile:
+
+- All 9 RPCs return options (profile-dependent ones return the API's "not connected" message when the profile lacks that network).
+- Test scenarios named `Post-Upload test: …` (left in the account, OFF) run every module: read-only modules, searches (limit respected), a throwaway profile lifecycle (create, queue settings, connect links, disconnect, delete), text/photo/video posting by URL and by file, schedule → update → cancel, a failing upload → retry, delete, error messages, and the webhook lifecycle.
+- Creating the webhook in Make registers a Post-Upload subscription (`subscriptionId` saved); deleting it removes the subscription. A subscription test event reaches Make and runs **Watch upload events**.
+- Not run live, by design: **Update webhook settings** (it replaces the account's real webhook settings).
+
+To create the instant-trigger hook through the Make API, use `typeName: "app#<app name>"` and put the webhook parameters plus `__IMTCONN__` in `data`. Blueprint module ids are `app#<app name>:<module>`.
+
+## Review checklist (Make app review prerequisites)
+
+Done: sanitization and error handling in base and connection; connection validated against `/api/me`; sentence-case labels and descriptions; one universal module; interfaces and samples for every module; dates formatted (`formatDate`) and parsed (`date` interface fields); `limit` on every search and RPC; pagination where the API pages (uploads, webhook deliveries); test scenarios covering every module plus an error scenario.
+
+Before requesting review: run the test scenarios again right before submitting (logs expire); pagination logs need more than 100 uploads (page size 100); check the logs contain no personal data you do not want reviewers to see (Get account details shows the account email); confirm support contact, categories and trademark/T&C declarations in Make's review form. Publishing is permanent and done by the owner in Make.
+
 ## Notes
 
 - **Instant trigger.** One **Watch upload events** module with an event choice in the webhook dialog. Make binds each instant trigger to one webhook definition, and the subscription is registered when the webhook is created, so the event filter belongs to the webhook. One module and one webhook cover all four events instead of four near-identical webhook definitions.

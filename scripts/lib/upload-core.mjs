@@ -113,10 +113,11 @@ export async function uploadApp(client, project, { state = {}, audience, saveSta
     });
     await step('icon.write', () => client.apps.setIcon(appName, version, new Uint8Array(project.icon.bytes)));
 
-    // 3. Connection (app-wide; Make assigns its name).
+    // 3. Connection (app-wide; Make assigns its name). Matched by label: Make reports an
+    //    `apikey` connection with type `basic`, so the type cannot identify it.
     await step('connection', async () => {
       const list = await client.connections.list(appName) ?? [];
-      let found = list.find((c) => c.name === connName) ?? list.find((c) => c.label === project.connection.meta.label && c.type === project.connection.meta.type);
+      let found = list.find((c) => c.name === connName) ?? list.find((c) => c.label === project.connection.meta.label);
       if (found) {
         await client.connections.update(found.name, { label: project.connection.meta.label });
         counts.updated += 1;

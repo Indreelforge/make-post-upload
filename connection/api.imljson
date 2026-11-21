@@ -6,6 +6,15 @@
 	},
 	"response": {
 		"error": {
+			"502": {
+				"message": "[502] Post-Upload is temporarily unavailable (bad gateway). Try again in a few minutes."
+			},
+			"503": {
+				"message": "[503] Post-Upload is temporarily unavailable (service unavailable). Try again in a few minutes."
+			},
+			"504": {
+				"message": "[504] Post-Upload is temporarily unavailable (gateway timeout). Try again in a few minutes."
+			},
 			"message": "[{{statusCode}}] {{ifempty(body.error, 'The API key was rejected.')}}"
 		},
 		"metadata": {

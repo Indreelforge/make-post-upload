@@ -159,3 +159,12 @@ test('every IML expression in the app parses with the test evaluator', () => {
   visit('connection', project.connection.sections.api.data);
   assert.deepEqual(failures, []);
 });
+
+test('gateway errors with a text body get a readable message', () => {
+  const error = project.base.data.response.error;
+  // Cloudflare answers 502/503/504 with a text page, not the API's JSON.
+  assert.equal(render(error['502'].message, { statusCode: 502, body: { success: undefined } }), '[502] Post-Upload is temporarily unavailable (bad gateway). Try again in a few minutes.');
+  assert.equal(render(error['502'].message, { statusCode: 502, body: { success: false, message: 'Your endpoint did not accept the test event (404).' } }), '[502] Your endpoint did not accept the test event (404).');
+  assert.match(error['503'].message, /^\[503\] Post-Upload is temporarily unavailable/);
+  assert.match(project.connection.sections.api.data.response.error['504'].message, /^\[504\]/);
+});

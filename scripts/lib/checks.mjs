@@ -141,6 +141,8 @@ export function checkRpcReferences(project) {
     const out = r.sections.api?.data?.response?.output;
     if (!out || typeof out.label !== 'string' || typeof out.value !== 'string') problems.push(`rpcs/${r.name}: response.output must be {label, value}`);
     if (!r.sections.api?.data?.response?.iterate) problems.push(`rpcs/${r.name}: response.iterate is missing`);
+    const limit = r.sections.api?.data?.response?.limit;
+    if (typeof limit !== 'number' || limit < 1 || limit > 500) problems.push(`rpcs/${r.name}: response.limit must be a number from 1 to 500 (Make review requirement)`);
   }
   return problems;
 }

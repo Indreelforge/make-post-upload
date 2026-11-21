@@ -6,6 +6,7 @@
 		"output": {
 			"label": "{{switch(item, 'PUBLIC_TO_EVERYONE', 'Everyone', 'MUTUAL_FOLLOW_FRIENDS', 'Friends', 'FOLLOWER_OF_CREATOR', 'Followers', 'SELF_ONLY', 'Only me', item)}}",
 			"value": "{{item}}"
-		}
+		},
+		"limit": 10
 	}
 }

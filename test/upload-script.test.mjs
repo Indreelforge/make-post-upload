@@ -126,3 +126,13 @@ test('zones and .env.local parsing', () => {
   assert.deepEqual(readEnvFile(file, { MAKE_ZONE: 'us1.make.com' }), { MAKE_API_KEY: 'abc', MAKE_ZONE: 'us1.make.com' });
   assert.deepEqual(readEnvFile(join(dir, 'missing'), { A: '1' }), { A: '1' });
 });
+
+test('an existing connection Make reports as type "basic" is reused, not duplicated', async () => {
+  const client = createMockClient();
+  await uploadApp(client, project);
+  const list = client.connections.list;
+  client.connections.list = async (...args) => (await list(...args)).map((c) => ({ ...c, type: 'basic' }));
+  const again = await uploadApp(client, project); // no saved state: found by label
+  assert.ok(again.ok);
+  assert.equal(client.calls.filter((c) => c.method === 'connections.create').length, 1);
+});
