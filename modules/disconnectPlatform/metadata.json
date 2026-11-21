@@ -1,0 +1,5 @@
+{
+	"label": "Disconnect a platform",
+	"description": "Disconnects a social network from a profile. Scheduled posts that target it will fail on that network.",
+	"typeId": 4
+}

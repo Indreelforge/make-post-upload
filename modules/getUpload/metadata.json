@@ -1,0 +1,5 @@
+{
+	"label": "Get an upload",
+	"description": "Returns an upload by its upload ID, with the status, post ID and post URL on each platform.",
+	"typeId": 4
+}

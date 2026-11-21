@@ -1,0 +1,12 @@
+{
+	"url": "/api/analytics/overview",
+	"method": "GET",
+	"qs": {
+		"range": "{{parameters.range}}",
+		"profile": "{{parameters.profile}}",
+		"platform": "{{parameters.platform}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

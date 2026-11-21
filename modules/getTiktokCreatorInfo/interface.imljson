@@ -1,0 +1,45 @@
+[
+	{
+		"name": "creator_nickname",
+		"type": "text",
+		"label": "Nickname"
+	},
+	{
+		"name": "creator_username",
+		"type": "text",
+		"label": "Username"
+	},
+	{
+		"name": "creator_avatar_url",
+		"type": "url",
+		"label": "Avatar URL"
+	},
+	{
+		"name": "privacy_level_options",
+		"type": "array",
+		"label": "Privacy levels",
+		"spec": {
+			"type": "text"
+		}
+	},
+	{
+		"name": "comment_disabled",
+		"type": "boolean",
+		"label": "Comments disabled"
+	},
+	{
+		"name": "duet_disabled",
+		"type": "boolean",
+		"label": "Duets disabled"
+	},
+	{
+		"name": "stitch_disabled",
+		"type": "boolean",
+		"label": "Stitches disabled"
+	},
+	{
+		"name": "max_video_post_duration_sec",
+		"type": "uinteger",
+		"label": "Maximum video duration in seconds"
+	}
+]

@@ -1,0 +1,7 @@
+{
+	"url": "/api/me",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

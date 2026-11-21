@@ -1,0 +1,11 @@
+[
+	{
+		"name": "upload_id",
+		"type": "select",
+		"label": "Upload ID",
+		"options": "rpc://getUploads",
+		"mode": "edit",
+		"required": true,
+		"help": "The upload ID (`upl_…`)."
+	}
+]

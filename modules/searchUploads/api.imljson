@@ -1,0 +1,22 @@
+{
+	"url": "/api/uploads",
+	"method": "GET",
+	"qs": {
+		"status": "{{parameters.status}}",
+		"limit": 100
+	},
+	"response": {
+		"iterate": {
+			"container": "{{body.uploads}}",
+			"condition": "{{!parameters.profile || item.profile_name == parameters.profile}}"
+		},
+		"output": "{{item}}",
+		"limit": "{{parameters.limit}}"
+	},
+	"pagination": {
+		"qs": {
+			"page": "{{pagination.page}}"
+		},
+		"condition": "{{body.pagination.pages >= pagination.page}}"
+	}
+}

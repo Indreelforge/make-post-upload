@@ -1,0 +1,32 @@
+{
+	"url": "/api/upload",
+	"method": "POST",
+	"type": "multipart/form-data",
+	"body": {
+		"{{...}}": "{{toCollection(parameters.platform_options, 'key', 'value')}}",
+		"user": "{{parameters.profile}}",
+		"platforms": "{{parameters.platforms}}",
+		"title": "{{parameters.title}}",
+		"description": "{{parameters.description}}",
+		"schedule": "{{if(parameters.schedule, formatDate(parameters.schedule, 'YYYY-MM-DDTHH:mm:ssZ'), undefined)}}",
+		"timezone": "{{parameters.timezone}}",
+		"add_to_queue": "{{if(parameters.add_to_queue, 'true', 'false')}}",
+		"first_comment": "{{parameters.first_comment}}",
+		"request_id": "{{parameters.reference}}",
+		"privacy_level": "{{parameters.privacy_level}}",
+		"youtube_privacy": "{{parameters.youtube_privacy}}",
+		"pinterest_board_id": "{{parameters.pinterest_board_id}}",
+		"facebook_page_id": "{{parameters.facebook_page_id}}",
+		"target_linkedin_page_id": "{{parameters.target_linkedin_page_id}}",
+		"async_upload": "true",
+		"video": {
+			"value": "{{parameters.video_data}}",
+			"options": {
+				"filename": "{{parameters.video_name}}"
+			}
+		}
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

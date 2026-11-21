@@ -1,0 +1,5 @@
+{
+	"label": "Make an API call",
+	"description": "Sends a custom API call to Post-Upload. You can use this to call endpoints that aren't covered by existing modules.",
+	"typeId": 12
+}

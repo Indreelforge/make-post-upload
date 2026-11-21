@@ -1,0 +1,16 @@
+{
+	"baseUrl": "https://api.post-upload.com",
+	"headers": {
+		"Authorization": "Apikey {{connection.apiKey}}"
+	},
+	"response": {
+		"error": {
+			"message": "[{{statusCode}}] {{ifempty(body.error, body.message)}}{{if(body.error_code, ' (' + body.error_code + ')', '')}}"
+		}
+	},
+	"log": {
+		"sanitize": [
+			"request.headers.authorization"
+		]
+	}
+}

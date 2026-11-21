@@ -1,0 +1,5 @@
+{
+	"label": "List Google Business locations",
+	"description": "Returns a list of the Google Business Profile locations of the profile.",
+	"typeId": 9
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Delete a profile",
+	"description": "Deletes a profile and its connected social accounts. This action cannot be undone.",
+	"typeId": 4
+}

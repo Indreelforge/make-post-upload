@@ -1,0 +1,13 @@
+{
+	"platform_limits": {
+		"instagram": {
+			"daily": {
+				"used": 3,
+				"limit": 25,
+				"remaining": 22
+			},
+			"note": "Instagram allows 25 posts per 24 hours.",
+			"max_file_size_mb": 300
+		}
+	}
+}

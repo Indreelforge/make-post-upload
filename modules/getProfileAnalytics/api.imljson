@@ -1,0 +1,10 @@
+{
+	"url": "/api/analytics/profile/{{parameters.profile}}",
+	"method": "GET",
+	"qs": {
+		"range": "{{parameters.range}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

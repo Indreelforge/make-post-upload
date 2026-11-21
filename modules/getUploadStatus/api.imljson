@@ -1,0 +1,10 @@
+{
+	"url": "/api/uploadposts/status",
+	"method": "GET",
+	"qs": {
+		"request_id": "{{parameters.request_id}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

@@ -1,0 +1,35 @@
+[
+	{
+		"name": "job_id",
+		"type": "select",
+		"label": "Scheduled post ID",
+		"options": "rpc://getScheduledPosts",
+		"mode": "edit",
+		"required": true,
+		"help": "The upload ID (`upl_…`) of the scheduled post."
+	},
+	{
+		"name": "scheduled_date",
+		"type": "date",
+		"label": "New date and time",
+		"help": "Must be in the future and within one year."
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone",
+		"help": "IANA time zone saved with the post, for example `Europe/London`."
+	},
+	{
+		"name": "title",
+		"type": "text",
+		"label": "New title or caption",
+		"multiline": true
+	},
+	{
+		"name": "caption",
+		"type": "text",
+		"label": "New description",
+		"multiline": true
+	}
+]

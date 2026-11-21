@@ -1,0 +1,30 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "revoked_at_platform",
+		"type": "boolean",
+		"label": "Revoked at platform"
+	},
+	{
+		"name": "affected_scheduled_uploads",
+		"type": "uinteger",
+		"label": "Affected scheduled posts"
+	},
+	{
+		"name": "affected_upload_ids",
+		"type": "array",
+		"label": "Affected upload IDs",
+		"spec": {
+			"type": "text"
+		}
+	},
+	{
+		"name": "warning",
+		"type": "text",
+		"label": "Warning"
+	}
+]

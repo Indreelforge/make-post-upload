@@ -1,0 +1,514 @@
+[
+	{
+		"name": "bluesky",
+		"type": "collection",
+		"label": "Bluesky",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "discord",
+		"type": "collection",
+		"label": "Discord",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "facebook",
+		"type": "collection",
+		"label": "Facebook",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "google_business",
+		"type": "collection",
+		"label": "Google Business Profile",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "instagram",
+		"type": "collection",
+		"label": "Instagram",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "linkedin",
+		"type": "collection",
+		"label": "LinkedIn",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "mastodon",
+		"type": "collection",
+		"label": "Mastodon",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "pinterest",
+		"type": "collection",
+		"label": "Pinterest",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "reddit",
+		"type": "collection",
+		"label": "Reddit",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "slack",
+		"type": "collection",
+		"label": "Slack",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "telegram",
+		"type": "collection",
+		"label": "Telegram",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "threads",
+		"type": "collection",
+		"label": "Threads",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "tiktok",
+		"type": "collection",
+		"label": "TikTok",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "wordpress",
+		"type": "collection",
+		"label": "WordPress",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "x",
+		"type": "collection",
+		"label": "X (formerly Twitter)",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	},
+	{
+		"name": "youtube",
+		"type": "collection",
+		"label": "YouTube",
+		"spec": [
+			{
+				"name": "connected",
+				"type": "boolean",
+				"label": "Connected"
+			},
+			{
+				"name": "needs_reauth",
+				"type": "boolean",
+				"label": "Needs reconnecting"
+			},
+			{
+				"name": "username",
+				"type": "text",
+				"label": "Username"
+			},
+			{
+				"name": "avatar",
+				"type": "url",
+				"label": "Avatar URL"
+			},
+			{
+				"name": "connected_at",
+				"type": "date",
+				"label": "Connected at"
+			}
+		]
+	}
+]

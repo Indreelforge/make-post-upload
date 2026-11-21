@@ -1,0 +1,5 @@
+{
+	"label": "Upload a photo file",
+	"description": "Publishes or schedules a photo file from a previous module.",
+	"typeId": 4
+}

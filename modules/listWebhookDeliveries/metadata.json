@@ -1,0 +1,5 @@
+{
+	"label": "List webhook deliveries",
+	"description": "Returns a list of the recent webhook deliveries of the account and their results, newest first.",
+	"typeId": 9
+}

@@ -1,0 +1,7 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}/connected-accounts",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

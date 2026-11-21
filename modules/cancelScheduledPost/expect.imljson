@@ -1,0 +1,11 @@
+[
+	{
+		"name": "job_id",
+		"type": "select",
+		"label": "Scheduled post ID",
+		"options": "rpc://getScheduledPosts",
+		"mode": "edit",
+		"required": true,
+		"help": "The upload ID (`upl_…`) of the scheduled post."
+	}
+]

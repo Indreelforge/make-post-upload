@@ -1,0 +1,11 @@
+[
+	{
+		"name": "request_id",
+		"type": "select",
+		"label": "Upload ID or reference",
+		"options": "rpc://getUploads",
+		"mode": "edit",
+		"required": true,
+		"help": "The upload ID (`upl_…`) or the reference you sent with the upload."
+	}
+]

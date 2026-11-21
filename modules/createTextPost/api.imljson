@@ -1,0 +1,25 @@
+{
+	"url": "/api/upload_text",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"{{...}}": "{{toCollection(parameters.platform_options, 'key', 'value')}}",
+		"user": "{{parameters.profile}}",
+		"platforms": "{{parameters.platforms}}",
+		"title": "{{parameters.title}}",
+		"description": "{{parameters.description}}",
+		"schedule": "{{if(parameters.schedule, formatDate(parameters.schedule, 'YYYY-MM-DDTHH:mm:ssZ'), undefined)}}",
+		"timezone": "{{parameters.timezone}}",
+		"add_to_queue": "{{parameters.add_to_queue}}",
+		"first_comment": "{{parameters.first_comment}}",
+		"request_id": "{{parameters.reference}}",
+		"facebook_page_id": "{{parameters.facebook_page_id}}",
+		"target_linkedin_page_id": "{{parameters.target_linkedin_page_id}}",
+		"gbp_location_id": "{{parameters.gbp_location_id}}",
+		"reddit_subreddit": "{{parameters.reddit_subreddit}}",
+		"async_upload": true
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Update webhook settings",
+	"description": "Replaces the account webhook URL and turns webhook and Telegram notifications on or off. Requires the Post-Upload Advanced plan or higher.",
+	"typeId": 4
+}

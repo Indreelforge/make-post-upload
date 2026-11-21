@@ -1,0 +1,171 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	},
+	{
+		"name": "request_id",
+		"type": "text",
+		"label": "Request ID"
+	},
+	{
+		"name": "data",
+		"type": "collection",
+		"label": "Upload",
+		"spec": [
+			{
+				"name": "upload_id",
+				"type": "text",
+				"label": "Upload ID"
+			},
+			{
+				"name": "platforms",
+				"type": "collection",
+				"label": "Platform statuses",
+				"spec": [
+					{
+						"name": "bluesky",
+						"type": "text",
+						"label": "Bluesky"
+					},
+					{
+						"name": "discord",
+						"type": "text",
+						"label": "Discord"
+					},
+					{
+						"name": "facebook",
+						"type": "text",
+						"label": "Facebook"
+					},
+					{
+						"name": "google_business",
+						"type": "text",
+						"label": "Google Business Profile"
+					},
+					{
+						"name": "instagram",
+						"type": "text",
+						"label": "Instagram"
+					},
+					{
+						"name": "linkedin",
+						"type": "text",
+						"label": "LinkedIn"
+					},
+					{
+						"name": "mastodon",
+						"type": "text",
+						"label": "Mastodon"
+					},
+					{
+						"name": "pinterest",
+						"type": "text",
+						"label": "Pinterest"
+					},
+					{
+						"name": "reddit",
+						"type": "text",
+						"label": "Reddit"
+					},
+					{
+						"name": "slack",
+						"type": "text",
+						"label": "Slack"
+					},
+					{
+						"name": "telegram",
+						"type": "text",
+						"label": "Telegram"
+					},
+					{
+						"name": "threads",
+						"type": "text",
+						"label": "Threads"
+					},
+					{
+						"name": "tiktok",
+						"type": "text",
+						"label": "TikTok"
+					},
+					{
+						"name": "wordpress",
+						"type": "text",
+						"label": "WordPress"
+					},
+					{
+						"name": "x",
+						"type": "text",
+						"label": "X (formerly Twitter)"
+					},
+					{
+						"name": "youtube",
+						"type": "text",
+						"label": "YouTube"
+					}
+				]
+			},
+			{
+				"name": "total_platforms",
+				"type": "uinteger",
+				"label": "Total platforms"
+			},
+			{
+				"name": "source",
+				"type": "text",
+				"label": "Source"
+			},
+			{
+				"name": "scheduled_date",
+				"type": "date",
+				"label": "Scheduled date"
+			},
+			{
+				"name": "processing_delayed",
+				"type": "boolean",
+				"label": "Processing delayed"
+			},
+			{
+				"name": "estimated_completion",
+				"type": "text",
+				"label": "Estimated completion"
+			}
+		]
+	},
+	{
+		"name": "warnings",
+		"type": "array",
+		"label": "Warnings",
+		"spec": {
+			"type": "collection",
+			"spec": [
+				{
+					"name": "type",
+					"type": "text",
+					"label": "Type"
+				},
+				{
+					"name": "level",
+					"type": "text",
+					"label": "Level"
+				},
+				{
+					"name": "platform",
+					"type": "text",
+					"label": "Platform"
+				},
+				{
+					"name": "message",
+					"type": "text",
+					"label": "Message"
+				}
+			]
+		}
+	}
+]

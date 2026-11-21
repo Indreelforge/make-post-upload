@@ -1,0 +1,20 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The profile whose LinkedIn account to use."
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1
+		},
+		"help": "The maximum number of LinkedIn pages Make returns during one execution cycle."
+	}
+]

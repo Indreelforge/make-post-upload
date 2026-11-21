@@ -1,0 +1,9 @@
+{
+	"id": "1234",
+	"email": "team@example.com",
+	"role": "user",
+	"plan": "professional",
+	"uploads_this_month": 42,
+	"month_reset_at": "2026-12-01T00:00:00.000Z",
+	"api_key_id": "key_5c1e2a11"
+}

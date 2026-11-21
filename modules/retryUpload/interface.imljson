@@ -1,0 +1,30 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	},
+	{
+		"name": "upload_id",
+		"type": "text",
+		"label": "Upload ID"
+	},
+	{
+		"name": "new_status",
+		"type": "text",
+		"label": "New status"
+	},
+	{
+		"name": "retry_platforms",
+		"type": "array",
+		"label": "Retried platforms",
+		"spec": {
+			"type": "text"
+		}
+	}
+]

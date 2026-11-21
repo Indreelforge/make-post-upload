@@ -1,0 +1,7 @@
+{
+	"url": "/api/youtube-allowance",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

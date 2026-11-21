@@ -1,0 +1,5 @@
+{
+	"label": "Get TikTok creator info",
+	"description": "Returns the privacy levels and limits TikTok allows for the TikTok account of a profile.",
+	"typeId": 4
+}

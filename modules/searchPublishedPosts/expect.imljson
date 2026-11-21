@@ -1,0 +1,92 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The Post-Upload profile. Its social accounts are connected in the [Post-Upload dashboard](https://post-upload.com/dashboard/users)."
+	},
+	{
+		"name": "platform",
+		"type": "select",
+		"label": "Platform",
+		"options": [
+			{
+				"label": "Bluesky",
+				"value": "bluesky"
+			},
+			{
+				"label": "Discord",
+				"value": "discord"
+			},
+			{
+				"label": "Facebook",
+				"value": "facebook"
+			},
+			{
+				"label": "Google Business Profile",
+				"value": "google_business"
+			},
+			{
+				"label": "Instagram",
+				"value": "instagram"
+			},
+			{
+				"label": "LinkedIn",
+				"value": "linkedin"
+			},
+			{
+				"label": "Mastodon",
+				"value": "mastodon"
+			},
+			{
+				"label": "Pinterest",
+				"value": "pinterest"
+			},
+			{
+				"label": "Reddit",
+				"value": "reddit"
+			},
+			{
+				"label": "Slack",
+				"value": "slack"
+			},
+			{
+				"label": "Telegram",
+				"value": "telegram"
+			},
+			{
+				"label": "Threads",
+				"value": "threads"
+			},
+			{
+				"label": "TikTok",
+				"value": "tiktok"
+			},
+			{
+				"label": "WordPress",
+				"value": "wordpress"
+			},
+			{
+				"label": "X (formerly Twitter)",
+				"value": "x"
+			},
+			{
+				"label": "YouTube",
+				"value": "youtube"
+			}
+		],
+		"help": "Only posts on this platform."
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1
+		},
+		"help": "The maximum number of posts Make returns during one execution cycle."
+	}
+]

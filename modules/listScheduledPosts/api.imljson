@@ -1,0 +1,9 @@
+{
+	"url": "/api/schedule",
+	"method": "GET",
+	"response": {
+		"iterate": "{{body.scheduled_posts}}",
+		"output": "{{item}}",
+		"limit": "{{parameters.limit}}"
+	}
+}

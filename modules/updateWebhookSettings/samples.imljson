@@ -1,0 +1,10 @@
+{
+	"success": true,
+	"channels": {
+		"webhook": true,
+		"telegram": false
+	},
+	"webhook_url": "https://example.com/hooks/post-upload",
+	"telegram_chat_id": null,
+	"webhook_secret": "example-signing-secret"
+}

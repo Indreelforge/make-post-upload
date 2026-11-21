@@ -1,0 +1,104 @@
+[
+	{
+		"name": "username",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The profile the client connects their accounts to."
+	},
+	{
+		"name": "platforms",
+		"type": "select",
+		"label": "Platforms",
+		"multiple": true,
+		"options": [
+			{
+				"label": "Facebook",
+				"value": "facebook"
+			},
+			{
+				"label": "Google Business Profile",
+				"value": "google_business"
+			},
+			{
+				"label": "Instagram",
+				"value": "instagram"
+			},
+			{
+				"label": "LinkedIn",
+				"value": "linkedin"
+			},
+			{
+				"label": "Pinterest",
+				"value": "pinterest"
+			},
+			{
+				"label": "Reddit",
+				"value": "reddit"
+			},
+			{
+				"label": "Threads",
+				"value": "threads"
+			},
+			{
+				"label": "TikTok",
+				"value": "tiktok"
+			},
+			{
+				"label": "X (formerly Twitter)",
+				"value": "x"
+			},
+			{
+				"label": "YouTube",
+				"value": "youtube"
+			}
+		],
+		"help": "Platforms offered on the page. Default: all."
+	},
+	{
+		"name": "redirect_url",
+		"type": "url",
+		"label": "Redirect URL",
+		"help": "HTTPS URL of the button on the page."
+	},
+	{
+		"name": "redirect_button_text",
+		"type": "text",
+		"label": "Redirect button text",
+		"help": "Default: Back to app."
+	},
+	{
+		"name": "logo_image",
+		"type": "url",
+		"label": "Logo URL",
+		"help": "HTTPS URL of your logo."
+	},
+	{
+		"name": "connect_title",
+		"type": "text",
+		"label": "Page title",
+		"validate": {
+			"max": 200
+		}
+	},
+	{
+		"name": "connect_description",
+		"type": "text",
+		"label": "Page description",
+		"multiline": true,
+		"validate": {
+			"max": 500
+		}
+	},
+	{
+		"name": "expires_in_hours",
+		"type": "uinteger",
+		"label": "Expires in hours",
+		"default": 48,
+		"validate": {
+			"min": 1,
+			"max": 720
+		}
+	}
+]

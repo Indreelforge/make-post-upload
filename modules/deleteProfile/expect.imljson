@@ -1,0 +1,11 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile name",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The Post-Upload profile. Its social accounts are connected in the [Post-Upload dashboard](https://post-upload.com/dashboard/users).",
+		"mode": "edit"
+	}
+]

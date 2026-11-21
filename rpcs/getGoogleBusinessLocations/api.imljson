@@ -1,0 +1,15 @@
+{
+	"url": "/api/platforms/google-business/locations",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}"
+	},
+	"response": {
+		"iterate": "{{body.locations}}",
+		"output": {
+			"label": "{{item.title}}",
+			"value": "{{item.name}}"
+		},
+		"limit": 300
+	}
+}

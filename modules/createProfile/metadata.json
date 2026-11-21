@@ -1,0 +1,5 @@
+{
+	"label": "Create a profile",
+	"description": "Creates a profile, for example one per client or brand. The number of profiles depends on the Post-Upload plan.",
+	"typeId": 4
+}

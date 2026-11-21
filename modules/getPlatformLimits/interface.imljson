@@ -1,0 +1,985 @@
+[
+	{
+		"name": "platform_limits",
+		"type": "collection",
+		"label": "Platform limits",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "collection",
+				"label": "Bluesky",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "discord",
+				"type": "collection",
+				"label": "Discord",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "facebook",
+				"type": "collection",
+				"label": "Facebook",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "google_business",
+				"type": "collection",
+				"label": "Google Business Profile",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "instagram",
+				"type": "collection",
+				"label": "Instagram",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "linkedin",
+				"type": "collection",
+				"label": "LinkedIn",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "mastodon",
+				"type": "collection",
+				"label": "Mastodon",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "pinterest",
+				"type": "collection",
+				"label": "Pinterest",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "reddit",
+				"type": "collection",
+				"label": "Reddit",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "slack",
+				"type": "collection",
+				"label": "Slack",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "telegram",
+				"type": "collection",
+				"label": "Telegram",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "threads",
+				"type": "collection",
+				"label": "Threads",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "tiktok",
+				"type": "collection",
+				"label": "TikTok",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "wordpress",
+				"type": "collection",
+				"label": "WordPress",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "x",
+				"type": "collection",
+				"label": "X (formerly Twitter)",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "youtube",
+				"type": "collection",
+				"label": "YouTube",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			}
+		]
+	}
+]

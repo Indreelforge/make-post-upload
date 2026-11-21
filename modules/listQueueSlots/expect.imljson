@@ -1,0 +1,21 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The profile whose posting queue to use."
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1,
+			"max": 50
+		},
+		"help": "The maximum number of slots Make returns during one execution cycle."
+	}
+]

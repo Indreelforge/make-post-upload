@@ -1,0 +1,37 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Account ID"
+	},
+	{
+		"name": "email",
+		"type": "email",
+		"label": "Email"
+	},
+	{
+		"name": "role",
+		"type": "text",
+		"label": "Role"
+	},
+	{
+		"name": "plan",
+		"type": "text",
+		"label": "Plan"
+	},
+	{
+		"name": "uploads_this_month",
+		"type": "uinteger",
+		"label": "Uploads this month"
+	},
+	{
+		"name": "month_reset_at",
+		"type": "date",
+		"label": "Month resets at"
+	},
+	{
+		"name": "api_key_id",
+		"type": "text",
+		"label": "API key ID"
+	}
+]

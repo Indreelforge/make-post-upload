@@ -1,0 +1,29 @@
+{
+  "name": "make-post-upload",
+  "version": "1.0.0",
+  "description": "Post-Upload for Make: publish videos, photos and text to 16 social networks, schedule posts and react to upload events.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "homepage": "https://post-upload.com/integrations/make",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indreelforge/make-post-upload.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/upload.mjs --dry-run",
+    "upload": "node scripts/upload.mjs --live",
+    "upload:dry-run": "node scripts/upload.mjs --dry-run",
+    "sync:openapi": "node scripts/sync-openapi.mjs"
+  },
+  "dependencies": {
+    "@makehq/sdk": "1.8.1"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

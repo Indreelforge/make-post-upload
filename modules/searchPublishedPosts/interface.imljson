@@ -1,0 +1,32 @@
+[
+	{
+		"name": "upload_id",
+		"type": "text",
+		"label": "Upload ID"
+	},
+	{
+		"name": "platform",
+		"type": "text",
+		"label": "Platform"
+	},
+	{
+		"name": "post_id",
+		"type": "text",
+		"label": "Post ID"
+	},
+	{
+		"name": "caption",
+		"type": "text",
+		"label": "Caption"
+	},
+	{
+		"name": "media_type",
+		"type": "text",
+		"label": "Media type"
+	},
+	{
+		"name": "timestamp",
+		"type": "date",
+		"label": "Published at"
+	}
+]

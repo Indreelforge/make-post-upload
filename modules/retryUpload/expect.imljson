@@ -1,0 +1,11 @@
+[
+	{
+		"name": "upload_id",
+		"type": "select",
+		"label": "Upload ID",
+		"options": "rpc://getFailedUploads",
+		"mode": "edit",
+		"required": true,
+		"help": "A failed upload, or its upload ID (`upl_…`) from Watch upload events."
+	}
+]

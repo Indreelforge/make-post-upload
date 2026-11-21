@@ -1,0 +1,37 @@
+{
+	"id": "upl_3f2a9c1d0b7e",
+	"title": "Our new product is live",
+	"description": "Watch the full launch video.",
+	"upload_type": "video",
+	"status": "completed",
+	"platforms": [
+		"instagram",
+		"tiktok"
+	],
+	"platform_statuses": {
+		"instagram": "completed",
+		"tiktok": "completed"
+	},
+	"platform_post_ids": {
+		"instagram": "17890000000000000",
+		"tiktok": "7300000000000000000"
+	},
+	"platform_post_urls": {
+		"instagram": "https://www.instagram.com/reel/C0000000000/",
+		"tiktok": "https://www.tiktok.com/@mybrand/video/7300000000000000000"
+	},
+	"scheduled_at": null,
+	"created_at": "2026-11-21T10:29:30.000Z",
+	"completed_at": "2026-11-21T10:30:00.000Z",
+	"error_message": null,
+	"source": "api",
+	"parent_upload_id": null,
+	"request_id": "upl_3f2a9c1d0b7e",
+	"profile_name": "my-brand",
+	"profile_id": "b1f0c6c2-7d1a-4a2e-9d8a-0c7f5c1e2a11",
+	"is_async": true,
+	"file_size_bytes": 10485760,
+	"video_was_transcoded": false,
+	"failure_stage": null,
+	"error_code": null
+}

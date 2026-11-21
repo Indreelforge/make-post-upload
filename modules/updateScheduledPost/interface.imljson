@@ -1,0 +1,47 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	},
+	{
+		"name": "post",
+		"type": "collection",
+		"label": "Scheduled post",
+		"spec": [
+			{
+				"name": "id",
+				"type": "text",
+				"label": "Scheduled post ID"
+			},
+			{
+				"name": "title",
+				"type": "text",
+				"label": "Title or caption"
+			},
+			{
+				"name": "caption",
+				"type": "text",
+				"label": "Description"
+			},
+			{
+				"name": "scheduled_date",
+				"type": "date",
+				"label": "Scheduled date"
+			},
+			{
+				"name": "platforms",
+				"type": "array",
+				"label": "Platforms",
+				"spec": {
+					"type": "text"
+				}
+			}
+		]
+	}
+]

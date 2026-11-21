@@ -1,0 +1,56 @@
+[
+	{
+		"name": "status",
+		"type": "select",
+		"label": "Status",
+		"options": [
+			{
+				"label": "Queued",
+				"value": "queued"
+			},
+			{
+				"label": "Processing",
+				"value": "processing"
+			},
+			{
+				"label": "Scheduled",
+				"value": "scheduled"
+			},
+			{
+				"label": "Completed",
+				"value": "completed"
+			},
+			{
+				"label": "Partial",
+				"value": "partial"
+			},
+			{
+				"label": "Failed",
+				"value": "failed"
+			},
+			{
+				"label": "Cancelled",
+				"value": "cancelled"
+			}
+		],
+		"help": "Only uploads with this status."
+	},
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": false,
+		"help": "Only uploads of this profile."
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1
+		},
+		"help": "The maximum number of uploads Make returns during one execution cycle."
+	}
+]

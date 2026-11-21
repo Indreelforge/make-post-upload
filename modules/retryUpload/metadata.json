@@ -1,0 +1,5 @@
+{
+	"label": "Retry a failed upload",
+	"description": "Publishes a failed upload again on the platforms that failed. Requires a paid Post-Upload plan.",
+	"typeId": 4
+}

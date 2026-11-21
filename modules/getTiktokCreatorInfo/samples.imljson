@@ -1,0 +1,14 @@
+{
+	"creator_nickname": "My Brand",
+	"creator_username": "mybrand",
+	"creator_avatar_url": "https://p16-sign.tiktokcdn.com/example.jpeg",
+	"privacy_level_options": [
+		"PUBLIC_TO_EVERYONE",
+		"MUTUAL_FOLLOW_FRIENDS",
+		"SELF_ONLY"
+	],
+	"comment_disabled": false,
+	"duet_disabled": false,
+	"stitch_disabled": false,
+	"max_video_post_duration_sec": 600
+}

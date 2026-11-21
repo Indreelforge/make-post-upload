@@ -1,0 +1,20 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The profile whose Pinterest account to use."
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1
+		},
+		"help": "The maximum number of Pinterest boards Make returns during one execution cycle."
+	}
+]

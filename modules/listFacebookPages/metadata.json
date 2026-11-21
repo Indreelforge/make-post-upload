@@ -1,0 +1,5 @@
+{
+	"label": "List Facebook pages",
+	"description": "Returns a list of the Facebook pages the profile can post to.",
+	"typeId": 9
+}

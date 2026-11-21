@@ -1,0 +1,5 @@
+{
+	"label": "List queue slots",
+	"description": "Returns a list of the upcoming queue slots of a profile and whether each is still free.",
+	"typeId": 9
+}

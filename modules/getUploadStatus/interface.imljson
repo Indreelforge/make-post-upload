@@ -1,0 +1,500 @@
+[
+	{
+		"name": "upload_id",
+		"type": "text",
+		"label": "Upload ID"
+	},
+	{
+		"name": "request_id",
+		"type": "text",
+		"label": "Request ID"
+	},
+	{
+		"name": "status",
+		"type": "text",
+		"label": "Status"
+	},
+	{
+		"name": "upload_type",
+		"type": "text",
+		"label": "Upload type"
+	},
+	{
+		"name": "platforms",
+		"type": "collection",
+		"label": "Platform statuses",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "text",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "text",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "text",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "text",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "text",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "text",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "text",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "text",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "text",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "text",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "text",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "text",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "text",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "text",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "text",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "text",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "platform_post_ids",
+		"type": "collection",
+		"label": "Platform post IDs",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "text",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "text",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "text",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "text",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "text",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "text",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "text",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "text",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "text",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "text",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "text",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "text",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "text",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "text",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "text",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "text",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "created_at",
+		"type": "date",
+		"label": "Created at"
+	},
+	{
+		"name": "completed_at",
+		"type": "date",
+		"label": "Completed at"
+	},
+	{
+		"name": "scheduled_at",
+		"type": "date",
+		"label": "Scheduled at"
+	},
+	{
+		"name": "error_message",
+		"type": "text",
+		"label": "Error message"
+	},
+	{
+		"name": "error",
+		"type": "text",
+		"label": "Error"
+	},
+	{
+		"name": "platform_errors",
+		"type": "collection",
+		"label": "Platform errors",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "collection",
+				"label": "Bluesky",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "discord",
+				"type": "collection",
+				"label": "Discord",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "facebook",
+				"type": "collection",
+				"label": "Facebook",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "google_business",
+				"type": "collection",
+				"label": "Google Business Profile",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "instagram",
+				"type": "collection",
+				"label": "Instagram",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "linkedin",
+				"type": "collection",
+				"label": "LinkedIn",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "mastodon",
+				"type": "collection",
+				"label": "Mastodon",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "pinterest",
+				"type": "collection",
+				"label": "Pinterest",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "reddit",
+				"type": "collection",
+				"label": "Reddit",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "slack",
+				"type": "collection",
+				"label": "Slack",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "telegram",
+				"type": "collection",
+				"label": "Telegram",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "threads",
+				"type": "collection",
+				"label": "Threads",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "tiktok",
+				"type": "collection",
+				"label": "TikTok",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "wordpress",
+				"type": "collection",
+				"label": "WordPress",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "x",
+				"type": "collection",
+				"label": "X (formerly Twitter)",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "youtube",
+				"type": "collection",
+				"label": "YouTube",
+				"spec": [
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			}
+		]
+	}
+]

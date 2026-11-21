@@ -1,0 +1,192 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The Post-Upload profile. Its social accounts are connected in the [Post-Upload dashboard](https://post-upload.com/dashboard/users)."
+	},
+	{
+		"name": "platforms",
+		"type": "select",
+		"label": "Platforms",
+		"multiple": true,
+		"required": true,
+		"options": [
+			{
+				"label": "Bluesky",
+				"value": "bluesky"
+			},
+			{
+				"label": "Discord",
+				"value": "discord"
+			},
+			{
+				"label": "Facebook",
+				"value": "facebook"
+			},
+			{
+				"label": "Google Business Profile",
+				"value": "google_business"
+			},
+			{
+				"label": "Instagram",
+				"value": "instagram"
+			},
+			{
+				"label": "LinkedIn",
+				"value": "linkedin"
+			},
+			{
+				"label": "Mastodon",
+				"value": "mastodon"
+			},
+			{
+				"label": "Pinterest",
+				"value": "pinterest"
+			},
+			{
+				"label": "Telegram",
+				"value": "telegram"
+			},
+			{
+				"label": "Threads",
+				"value": "threads"
+			},
+			{
+				"label": "TikTok",
+				"value": "tiktok"
+			},
+			{
+				"label": "WordPress",
+				"value": "wordpress"
+			},
+			{
+				"label": "X (formerly Twitter)",
+				"value": "x"
+			}
+		],
+		"help": "Networks to publish the photo to. Each must be connected to the profile."
+	},
+	{
+		"name": "photo_name",
+		"type": "filename",
+		"label": "File name",
+		"semantic": "file:name",
+		"required": true,
+		"help": "The file name including the extension, for example `product.jpg`."
+	},
+	{
+		"name": "photo_data",
+		"type": "buffer",
+		"label": "Data",
+		"semantic": "file:data",
+		"required": true
+	},
+	{
+		"name": "title",
+		"type": "text",
+		"label": "Title or caption",
+		"multiline": true,
+		"required": true,
+		"help": "The post text. It is the video title on YouTube and the caption everywhere else."
+	},
+	{
+		"name": "description",
+		"type": "text",
+		"label": "Description",
+		"multiline": true,
+		"help": "Optional longer text: the YouTube description, and added below the title on the other networks."
+	},
+	{
+		"name": "schedule",
+		"type": "date",
+		"label": "Schedule at",
+		"help": "Publish later at this date and time. Leave empty to publish now."
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone",
+		"help": "IANA time zone saved with the post, for example `America/New_York`. Make sends the date with its UTC offset, so the time zone does not move the publish time."
+	},
+	{
+		"name": "add_to_queue",
+		"type": "boolean",
+		"label": "Add to queue",
+		"help": "Post at the profile's next free queue slot instead of now."
+	},
+	{
+		"name": "first_comment",
+		"type": "text",
+		"label": "First comment",
+		"help": "Posted as the first comment right after publishing (Instagram, Facebook, X, LinkedIn, Threads, YouTube, Bluesky, Reddit)."
+	},
+	{
+		"name": "reference",
+		"type": "text",
+		"label": "Your reference",
+		"help": "Your own unique ID for this post, sent as `request_id`. The Get an upload status module accepts it later."
+	},
+	{
+		"name": "privacy_level",
+		"type": "select",
+		"label": "TikTok privacy",
+		"options": "rpc://getTiktokPrivacyLevels",
+		"advanced": true,
+		"help": "Required when posting to TikTok. The choices come from the TikTok account connected to the profile."
+	},
+	{
+		"name": "pinterest_board_id",
+		"type": "select",
+		"label": "Pinterest board",
+		"options": "rpc://getPinterestBoards",
+		"advanced": true,
+		"help": "Required when posting to Pinterest."
+	},
+	{
+		"name": "facebook_page_id",
+		"type": "select",
+		"label": "Facebook page",
+		"options": "rpc://getFacebookPages",
+		"advanced": true,
+		"help": "The Facebook page to post to. Default: the page chosen when Facebook was connected."
+	},
+	{
+		"name": "target_linkedin_page_id",
+		"type": "select",
+		"label": "LinkedIn page",
+		"options": "rpc://getLinkedinPages",
+		"advanced": true,
+		"help": "Post as this LinkedIn company page instead of the personal profile."
+	},
+	{
+		"name": "gbp_location_id",
+		"type": "select",
+		"label": "Google Business location",
+		"options": "rpc://getGoogleBusinessLocations",
+		"advanced": true,
+		"help": "The Google Business Profile location to post to. Default: the first location."
+	},
+	{
+		"name": "platform_options",
+		"type": "array",
+		"label": "Other platform options",
+		"advanced": true,
+		"spec": [
+			{
+				"name": "key",
+				"type": "text",
+				"label": "Option",
+				"required": true
+			},
+			{
+				"name": "value",
+				"type": "text",
+				"label": "Value"
+			}
+		],
+		"help": "Other platform-specific API fields sent as-is, for example `youtube_tags`, `pinterest_link` or `reddit_flair_id`. See the [platform guides](https://docs.post-upload.com/platform-guides/tiktok)."
+	}
+]

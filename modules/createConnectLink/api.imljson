@@ -1,0 +1,25 @@
+{
+	"url": "/api/whitelabel/generate-jwt",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"username": "{{parameters.username}}",
+		"platforms": "{{parameters.platforms}}",
+		"redirect_url": "{{parameters.redirect_url}}",
+		"redirect_button_text": "{{parameters.redirect_button_text}}",
+		"logo_image": "{{parameters.logo_image}}",
+		"connect_title": "{{parameters.connect_title}}",
+		"connect_description": "{{parameters.connect_description}}",
+		"expires_in_hours": "{{parameters.expires_in_hours}}"
+	},
+	"response": {
+		"output": "{{omit(body, 'jwt', 'token')}}"
+	},
+	"log": {
+		"sanitize": [
+			"response.body.jwt",
+			"response.body.token",
+			"response.body.access_url"
+		]
+	}
+}

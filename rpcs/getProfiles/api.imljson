@@ -1,0 +1,12 @@
+{
+	"url": "/api/profiles",
+	"method": "GET",
+	"response": {
+		"iterate": "{{body.profiles}}",
+		"output": {
+			"label": "{{item.name}}{{if(item.locked, ' (locked)', '')}}",
+			"value": "{{item.name}}"
+		},
+		"limit": 500
+	}
+}

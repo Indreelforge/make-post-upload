@@ -1,0 +1,11 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}/tiktok/creator-info",
+	"method": "GET",
+	"response": {
+		"iterate": "{{body.privacy_level_options}}",
+		"output": {
+			"label": "{{switch(item, 'PUBLIC_TO_EVERYONE', 'Everyone', 'MUTUAL_FOLLOW_FRIENDS', 'Friends', 'FOLLOWER_OF_CREATOR', 'Followers', 'SELF_ONLY', 'Only me', item)}}",
+			"value": "{{item}}"
+		}
+	}
+}

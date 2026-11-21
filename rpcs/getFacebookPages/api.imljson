@@ -1,0 +1,15 @@
+{
+	"url": "/api/platforms/facebook/pages",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}"
+	},
+	"response": {
+		"iterate": "{{body.pages}}",
+		"output": {
+			"label": "{{item.name}}",
+			"value": "{{item.id}}"
+		},
+		"limit": 300
+	}
+}

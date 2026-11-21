@@ -1,0 +1,5 @@
+{
+	"label": "Get an analytics overview",
+	"description": "Returns the number of uploads, published and failed posts in a period, with the trend against the previous period.",
+	"typeId": 4
+}

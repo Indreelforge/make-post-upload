@@ -1,0 +1,18 @@
+{
+	"url": "/api/webhooks/deliveries",
+	"method": "GET",
+	"qs": {
+		"limit": 100
+	},
+	"response": {
+		"iterate": "{{body.deliveries}}",
+		"output": "{{item}}",
+		"limit": "{{parameters.limit}}"
+	},
+	"pagination": {
+		"qs": {
+			"page": "{{pagination.page}}"
+		},
+		"condition": "{{length(body.deliveries) == 100}}"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"label": "List profiles",
+	"description": "Returns a list of the profiles on the account with their connected social accounts.",
+	"typeId": 9
+}

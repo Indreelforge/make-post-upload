@@ -1,0 +1,17 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Page ID"
+	},
+	{
+		"name": "name",
+		"type": "text",
+		"label": "Name"
+	},
+	{
+		"name": "picture",
+		"type": "url",
+		"label": "Picture URL"
+	}
+]

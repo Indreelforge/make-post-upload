@@ -1,0 +1,21 @@
+{
+	"url": "https://api.post-upload.com/api/me",
+	"method": "GET",
+	"headers": {
+		"Authorization": "Apikey {{parameters.apiKey}}"
+	},
+	"response": {
+		"error": {
+			"message": "[{{statusCode}}] {{ifempty(body.error, 'The API key was rejected.')}}"
+		},
+		"metadata": {
+			"type": "email",
+			"value": "{{body.email}}"
+		}
+	},
+	"log": {
+		"sanitize": [
+			"request.headers.authorization"
+		]
+	}
+}

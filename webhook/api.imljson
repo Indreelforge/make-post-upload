@@ -1,0 +1,4 @@
+{
+	"condition": "{{length(ifempty(body.event, '')) > 0}}",
+	"output": "{{omit(body, 'user_id')}}"
+}

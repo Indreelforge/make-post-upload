@@ -1,0 +1,366 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Upload ID"
+	},
+	{
+		"name": "title",
+		"type": "text",
+		"label": "Title or caption"
+	},
+	{
+		"name": "description",
+		"type": "text",
+		"label": "Description"
+	},
+	{
+		"name": "upload_type",
+		"type": "text",
+		"label": "Upload type"
+	},
+	{
+		"name": "status",
+		"type": "text",
+		"label": "Status"
+	},
+	{
+		"name": "platforms",
+		"type": "array",
+		"label": "Platforms",
+		"spec": {
+			"type": "text"
+		}
+	},
+	{
+		"name": "platform_statuses",
+		"type": "collection",
+		"label": "Platform statuses",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "text",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "text",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "text",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "text",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "text",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "text",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "text",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "text",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "text",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "text",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "text",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "text",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "text",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "text",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "text",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "text",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "platform_post_ids",
+		"type": "collection",
+		"label": "Platform post IDs",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "text",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "text",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "text",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "text",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "text",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "text",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "text",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "text",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "text",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "text",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "text",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "text",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "text",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "text",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "text",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "text",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "platform_post_urls",
+		"type": "collection",
+		"label": "Platform post URLs",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "url",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "url",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "url",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "url",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "url",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "url",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "url",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "url",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "url",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "url",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "url",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "url",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "url",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "url",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "url",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "url",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "scheduled_at",
+		"type": "date",
+		"label": "Scheduled at"
+	},
+	{
+		"name": "created_at",
+		"type": "date",
+		"label": "Created at"
+	},
+	{
+		"name": "completed_at",
+		"type": "date",
+		"label": "Completed at"
+	},
+	{
+		"name": "error_message",
+		"type": "text",
+		"label": "Error message"
+	},
+	{
+		"name": "source",
+		"type": "text",
+		"label": "Source"
+	},
+	{
+		"name": "parent_upload_id",
+		"type": "text",
+		"label": "Parent upload ID"
+	},
+	{
+		"name": "request_id",
+		"type": "text",
+		"label": "Request ID"
+	},
+	{
+		"name": "profile_name",
+		"type": "text",
+		"label": "Profile"
+	},
+	{
+		"name": "profile_id",
+		"type": "text",
+		"label": "Profile ID"
+	},
+	{
+		"name": "is_async",
+		"type": "boolean",
+		"label": "Asynchronous"
+	},
+	{
+		"name": "file_size_bytes",
+		"type": "uinteger",
+		"label": "File size (bytes)"
+	},
+	{
+		"name": "video_was_transcoded",
+		"type": "boolean",
+		"label": "Video was transcoded"
+	},
+	{
+		"name": "failure_stage",
+		"type": "text",
+		"label": "Failure stage"
+	},
+	{
+		"name": "error_code",
+		"type": "text",
+		"label": "Error code"
+	}
+]

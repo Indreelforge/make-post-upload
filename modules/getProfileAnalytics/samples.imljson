@@ -1,0 +1,14 @@
+{
+	"profile": "my-brand",
+	"period": "30d",
+	"total_uploads": 64,
+	"period_uploads": 21,
+	"completed": 60,
+	"failed": 4,
+	"top_platform": "instagram",
+	"growth_rate": 12.5,
+	"uploads_by_platform": {
+		"instagram": 12,
+		"tiktok": 9
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Get platform limits",
+	"description": "Returns the daily and hourly posting limits of each platform and how much of them was used.",
+	"typeId": 4
+}

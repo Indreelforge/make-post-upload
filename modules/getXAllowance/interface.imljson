@@ -1,0 +1,52 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "month",
+		"type": "text",
+		"label": "Month"
+	},
+	{
+		"name": "used",
+		"type": "uinteger",
+		"label": "Used"
+	},
+	{
+		"name": "free_limit",
+		"type": "uinteger",
+		"label": "Free limit"
+	},
+	{
+		"name": "addon_active",
+		"type": "boolean",
+		"label": "Add-on active"
+	},
+	{
+		"name": "addon_limit",
+		"type": "uinteger",
+		"label": "Add-on limit"
+	},
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit"
+	},
+	{
+		"name": "remaining",
+		"type": "uinteger",
+		"label": "Remaining"
+	},
+	{
+		"name": "resets_at",
+		"type": "date",
+		"label": "Resets at"
+	},
+	{
+		"name": "upgrade_url",
+		"type": "text",
+		"label": "Upgrade URL"
+	}
+]

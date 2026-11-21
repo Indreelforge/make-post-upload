@@ -1,0 +1,5 @@
+{
+	"label": "Delete an upload",
+	"description": "Deletes an upload from the history and cancels it if it has not been published yet. Published posts stay on the social networks. This action cannot be undone.",
+	"typeId": 4
+}

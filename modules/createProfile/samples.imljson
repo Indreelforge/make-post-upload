@@ -1,0 +1,10 @@
+{
+	"success": true,
+	"profile": {
+		"id": "b1f0c6c2-7d1a-4a2e-9d8a-0c7f5c1e2a11",
+		"name": "client-acme",
+		"owner_id": "1234",
+		"status": "active",
+		"connections": []
+	}
+}

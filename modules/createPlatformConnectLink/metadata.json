@@ -1,0 +1,5 @@
+{
+	"label": "Create a platform connect link",
+	"description": "Creates a single-use login link that connects one social network to a profile. The link expires after 10 minutes.",
+	"typeId": 4
+}

@@ -1,0 +1,45 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "profile",
+		"type": "text",
+		"label": "Profile"
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone"
+	},
+	{
+		"name": "slots",
+		"type": "array",
+		"label": "Slots",
+		"spec": {
+			"type": "collection",
+			"spec": [
+				{
+					"name": "time",
+					"type": "text",
+					"label": "Time"
+				}
+			]
+		}
+	},
+	{
+		"name": "days_of_week",
+		"type": "array",
+		"label": "Posting days",
+		"spec": {
+			"type": "uinteger"
+		}
+	},
+	{
+		"name": "max_posts_per_slot",
+		"type": "uinteger",
+		"label": "Maximum posts per slot"
+	}
+]

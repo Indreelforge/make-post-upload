@@ -1,0 +1,41 @@
+[
+	{
+		"name": "events",
+		"type": "select",
+		"label": "Events",
+		"multiple": true,
+		"required": true,
+		"options": [
+			{
+				"label": "Upload completed",
+				"value": "upload.completed"
+			},
+			{
+				"label": "Upload failed",
+				"value": "upload.failed"
+			},
+			{
+				"label": "Upload partially failed",
+				"value": "upload.partial"
+			},
+			{
+				"label": "Scheduled post published",
+				"value": "scheduled_post_published"
+			}
+		],
+		"default": [
+			"upload.completed",
+			"upload.failed",
+			"upload.partial",
+			"scheduled_post_published"
+		],
+		"help": "A scheduled post that is published sends Scheduled post published instead of Upload completed."
+	},
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"help": "Only events of this profile. Leave empty for every profile."
+	}
+]

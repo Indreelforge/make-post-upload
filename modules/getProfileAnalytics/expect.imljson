@@ -1,0 +1,35 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile name",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The Post-Upload profile. Its social accounts are connected in the [Post-Upload dashboard](https://post-upload.com/dashboard/users).",
+		"mode": "edit"
+	},
+	{
+		"name": "range",
+		"type": "select",
+		"label": "Period",
+		"options": [
+			{
+				"label": "Last 7 days",
+				"value": "7d"
+			},
+			{
+				"label": "Last 30 days",
+				"value": "30d"
+			},
+			{
+				"label": "Last 90 days",
+				"value": "90d"
+			},
+			{
+				"label": "Last 365 days",
+				"value": "365d"
+			}
+		],
+		"default": "30d"
+	}
+]

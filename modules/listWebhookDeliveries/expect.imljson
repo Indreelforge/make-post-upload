@@ -1,0 +1,12 @@
+[
+	{
+		"name": "limit",
+		"type": "uinteger",
+		"label": "Limit",
+		"default": 10,
+		"validate": {
+			"min": 1
+		},
+		"help": "The maximum number of deliveries Make returns during one execution cycle."
+	}
+]

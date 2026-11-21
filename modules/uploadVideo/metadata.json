@@ -1,0 +1,5 @@
+{
+	"label": "Upload a video",
+	"description": "Publishes or schedules a video from a public URL on Instagram, YouTube, TikTok, Facebook, X, LinkedIn and other networks. The video is published in the background; use Watch upload events or Get an upload status for the result.",
+	"typeId": 4
+}

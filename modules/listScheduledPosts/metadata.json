@@ -1,0 +1,5 @@
+{
+	"label": "List scheduled posts",
+	"description": "Returns a list of the posts that are scheduled and not yet published, soonest first.",
+	"typeId": 9
+}

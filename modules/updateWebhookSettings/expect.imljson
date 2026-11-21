@@ -1,0 +1,28 @@
+[
+	{
+		"name": "webhook_enabled",
+		"type": "boolean",
+		"label": "Webhook notifications",
+		"required": true,
+		"default": true
+	},
+	{
+		"name": "webhook_url",
+		"type": "url",
+		"label": "Webhook URL",
+		"help": "Public HTTPS URL that receives upload events."
+	},
+	{
+		"name": "telegram_enabled",
+		"type": "boolean",
+		"label": "Telegram notifications",
+		"required": true,
+		"default": false,
+		"help": "This module replaces both settings: keep it on if you use Telegram notifications."
+	},
+	{
+		"name": "telegram_chat_id",
+		"type": "text",
+		"label": "Telegram chat ID"
+	}
+]

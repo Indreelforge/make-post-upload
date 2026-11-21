@@ -1,0 +1,32 @@
+[
+	{
+		"name": "profile",
+		"type": "text",
+		"label": "Profile"
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone"
+	},
+	{
+		"name": "next_slot",
+		"type": "date",
+		"label": "Next slot"
+	},
+	{
+		"name": "slot_time",
+		"type": "text",
+		"label": "Slot time"
+	},
+	{
+		"name": "day",
+		"type": "text",
+		"label": "Day"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	}
+]

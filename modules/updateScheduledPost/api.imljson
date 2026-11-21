@@ -1,0 +1,14 @@
+{
+	"url": "/api/schedule/{{parameters.job_id}}",
+	"method": "PATCH",
+	"type": "json",
+	"body": {
+		"scheduled_date": "{{if(parameters.scheduled_date, formatDate(parameters.scheduled_date, 'YYYY-MM-DDTHH:mm:ssZ'), undefined)}}",
+		"timezone": "{{parameters.timezone}}",
+		"title": "{{parameters.title}}",
+		"caption": "{{parameters.caption}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

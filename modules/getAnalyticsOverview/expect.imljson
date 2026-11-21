@@ -1,0 +1,106 @@
+[
+	{
+		"name": "range",
+		"type": "select",
+		"label": "Period",
+		"options": [
+			{
+				"label": "Last 7 days",
+				"value": "7d"
+			},
+			{
+				"label": "Last 30 days",
+				"value": "30d"
+			},
+			{
+				"label": "Last 90 days",
+				"value": "90d"
+			},
+			{
+				"label": "Last 365 days",
+				"value": "365d"
+			}
+		],
+		"default": "30d"
+	},
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": false,
+		"help": "Only uploads of this profile."
+	},
+	{
+		"name": "platform",
+		"type": "select",
+		"label": "Platform",
+		"options": [
+			{
+				"label": "Bluesky",
+				"value": "bluesky"
+			},
+			{
+				"label": "Discord",
+				"value": "discord"
+			},
+			{
+				"label": "Facebook",
+				"value": "facebook"
+			},
+			{
+				"label": "Google Business Profile",
+				"value": "google_business"
+			},
+			{
+				"label": "Instagram",
+				"value": "instagram"
+			},
+			{
+				"label": "LinkedIn",
+				"value": "linkedin"
+			},
+			{
+				"label": "Mastodon",
+				"value": "mastodon"
+			},
+			{
+				"label": "Pinterest",
+				"value": "pinterest"
+			},
+			{
+				"label": "Reddit",
+				"value": "reddit"
+			},
+			{
+				"label": "Slack",
+				"value": "slack"
+			},
+			{
+				"label": "Telegram",
+				"value": "telegram"
+			},
+			{
+				"label": "Threads",
+				"value": "threads"
+			},
+			{
+				"label": "TikTok",
+				"value": "tiktok"
+			},
+			{
+				"label": "WordPress",
+				"value": "wordpress"
+			},
+			{
+				"label": "X (formerly Twitter)",
+				"value": "x"
+			},
+			{
+				"label": "YouTube",
+				"value": "youtube"
+			}
+		],
+		"help": "Only uploads to this platform."
+	}
+]

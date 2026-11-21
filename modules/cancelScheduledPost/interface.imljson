@@ -1,0 +1,12 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	}
+]

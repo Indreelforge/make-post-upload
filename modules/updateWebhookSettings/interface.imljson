@@ -1,0 +1,39 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "channels",
+		"type": "collection",
+		"label": "Channels",
+		"spec": [
+			{
+				"name": "webhook",
+				"type": "boolean",
+				"label": "Webhook"
+			},
+			{
+				"name": "telegram",
+				"type": "boolean",
+				"label": "Telegram"
+			}
+		]
+	},
+	{
+		"name": "webhook_url",
+		"type": "url",
+		"label": "Webhook URL"
+	},
+	{
+		"name": "telegram_chat_id",
+		"type": "text",
+		"label": "Telegram chat ID"
+	},
+	{
+		"name": "webhook_secret",
+		"type": "text",
+		"label": "Webhook signing secret"
+	}
+]

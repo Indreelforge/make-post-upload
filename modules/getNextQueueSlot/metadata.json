@@ -1,0 +1,5 @@
+{
+	"label": "Get the next queue slot",
+	"description": "Returns the next free posting slot in the queue of a profile.",
+	"typeId": 4
+}

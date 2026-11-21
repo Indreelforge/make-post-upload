@@ -1,0 +1,7 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}",
+	"method": "DELETE",
+	"response": {
+		"output": "{{body}}"
+	}
+}

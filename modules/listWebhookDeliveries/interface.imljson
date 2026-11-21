@@ -1,0 +1,47 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Delivery ID"
+	},
+	{
+		"name": "upload_id",
+		"type": "text",
+		"label": "Upload ID"
+	},
+	{
+		"name": "subscription_id",
+		"type": "text",
+		"label": "Subscription ID"
+	},
+	{
+		"name": "event_type",
+		"type": "text",
+		"label": "Event"
+	},
+	{
+		"name": "response_status",
+		"type": "uinteger",
+		"label": "Response status"
+	},
+	{
+		"name": "status",
+		"type": "text",
+		"label": "Status"
+	},
+	{
+		"name": "delivery_error",
+		"type": "text",
+		"label": "Delivery error"
+	},
+	{
+		"name": "delivered_at",
+		"type": "date",
+		"label": "Delivered at"
+	},
+	{
+		"name": "created_at",
+		"type": "date",
+		"label": "Created at"
+	}
+]

@@ -1,0 +1,74 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "profile",
+		"type": "collection",
+		"label": "Profile",
+		"spec": [
+			{
+				"name": "id",
+				"type": "text",
+				"label": "Profile ID"
+			},
+			{
+				"name": "name",
+				"type": "text",
+				"label": "Name"
+			},
+			{
+				"name": "owner_id",
+				"type": "text",
+				"label": "Owner ID"
+			},
+			{
+				"name": "status",
+				"type": "text",
+				"label": "Status"
+			},
+			{
+				"name": "connections",
+				"type": "array",
+				"label": "Connections",
+				"spec": {
+					"type": "collection",
+					"spec": [
+						{
+							"name": "platform",
+							"type": "text",
+							"label": "Platform"
+						},
+						{
+							"name": "status",
+							"type": "text",
+							"label": "Status"
+						},
+						{
+							"name": "needs_reauth",
+							"type": "boolean",
+							"label": "Needs reconnecting"
+						},
+						{
+							"name": "platform_username",
+							"type": "text",
+							"label": "Username"
+						},
+						{
+							"name": "profile_picture_url",
+							"type": "url",
+							"label": "Profile picture URL"
+						},
+						{
+							"name": "connected_at",
+							"type": "date",
+							"label": "Connected at"
+						}
+					]
+				}
+			}
+		]
+	}
+]

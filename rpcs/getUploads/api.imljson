@@ -1,0 +1,15 @@
+{
+	"url": "/api/uploads",
+	"method": "GET",
+	"qs": {
+		"limit": 100
+	},
+	"response": {
+		"iterate": "{{body.uploads}}",
+		"output": {
+			"label": "{{substring(ifempty(item.title, '(no caption)'), 0, 60)}} · {{ifempty(item.profile_name, '-')}} · {{item.status}}",
+			"value": "{{item.id}}"
+		},
+		"limit": 100
+	}
+}

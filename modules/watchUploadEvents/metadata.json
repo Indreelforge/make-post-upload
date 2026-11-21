@@ -1,0 +1,6 @@
+{
+	"label": "Watch upload events",
+	"description": "Triggers when an upload is published, fails or partially fails, or when a scheduled post is published. Requires the Post-Upload Advanced plan or higher.",
+	"typeId": 10,
+	"webhook": true
+}

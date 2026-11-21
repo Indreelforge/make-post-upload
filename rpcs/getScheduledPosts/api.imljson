@@ -1,0 +1,12 @@
+{
+	"url": "/api/schedule",
+	"method": "GET",
+	"response": {
+		"iterate": "{{body.scheduled_posts}}",
+		"output": {
+			"label": "{{substring(ifempty(item.title, '(no caption)'), 0, 60)}} · {{formatDate(item.scheduled_at, 'YYYY-MM-DD HH:mm')}}",
+			"value": "{{item.id}}"
+		},
+		"limit": 500
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Get the YouTube upload allowance",
+	"description": "Returns how many YouTube uploads are left today and when the daily quota resets.",
+	"typeId": 4
+}

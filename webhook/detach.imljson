@@ -1,0 +1,9 @@
+{
+	"url": "/api/webhooks/subscriptions/{{webhook.subscriptionId}}",
+	"method": "DELETE",
+	"log": {
+		"sanitize": [
+			"request.headers.authorization"
+		]
+	}
+}

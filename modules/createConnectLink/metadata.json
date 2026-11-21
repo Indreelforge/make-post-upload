@@ -1,0 +1,5 @@
+{
+	"label": "Create a client connect link",
+	"description": "Creates a branded page where a client connects their own social accounts to a profile. Requires a Post-Upload plan with white label.",
+	"typeId": 4
+}

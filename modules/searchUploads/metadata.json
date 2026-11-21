@@ -1,0 +1,5 @@
+{
+	"label": "Search uploads",
+	"description": "Returns a list of uploads, newest first, filtered by status and profile.",
+	"typeId": 9
+}

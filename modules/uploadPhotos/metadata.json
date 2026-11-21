@@ -1,0 +1,5 @@
+{
+	"label": "Upload photos",
+	"description": "Publishes or schedules one photo or a carousel of up to 10 photos from public URLs.",
+	"typeId": 4
+}

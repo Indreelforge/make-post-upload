@@ -1,0 +1,5 @@
+{
+	"label": "Get an upload status",
+	"description": "Returns the status of an upload on each platform by its upload ID or your reference, with the error on each platform that failed.",
+	"typeId": 4
+}

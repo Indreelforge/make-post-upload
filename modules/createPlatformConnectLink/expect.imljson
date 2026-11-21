@@ -1,0 +1,70 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The Post-Upload profile. Its social accounts are connected in the [Post-Upload dashboard](https://post-upload.com/dashboard/users)."
+	},
+	{
+		"name": "platform",
+		"type": "select",
+		"label": "Platform",
+		"required": true,
+		"options": [
+			{
+				"label": "Facebook",
+				"value": "facebook"
+			},
+			{
+				"label": "Google Business Profile",
+				"value": "google_business"
+			},
+			{
+				"label": "Instagram",
+				"value": "instagram"
+			},
+			{
+				"label": "LinkedIn",
+				"value": "linkedin"
+			},
+			{
+				"label": "Pinterest",
+				"value": "pinterest"
+			},
+			{
+				"label": "Reddit",
+				"value": "reddit"
+			},
+			{
+				"label": "Threads",
+				"value": "threads"
+			},
+			{
+				"label": "TikTok",
+				"value": "tiktok"
+			},
+			{
+				"label": "X (formerly Twitter)",
+				"value": "x"
+			},
+			{
+				"label": "YouTube",
+				"value": "youtube"
+			}
+		]
+	},
+	{
+		"name": "redirect_url",
+		"type": "url",
+		"label": "Redirect URL",
+		"help": "HTTPS URL to return to after connecting. Its host must be on the connect-redirect allowlist in the Post-Upload dashboard (API Keys)."
+	},
+	{
+		"name": "replace_existing",
+		"type": "boolean",
+		"label": "Replace existing account",
+		"help": "Allow replacing a different account that is already connected for this platform."
+	}
+]

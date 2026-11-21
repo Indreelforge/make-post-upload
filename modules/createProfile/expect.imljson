@@ -1,0 +1,14 @@
+[
+	{
+		"name": "name",
+		"type": "text",
+		"label": "Name",
+		"required": true,
+		"validate": {
+			"min": 3,
+			"max": 50,
+			"pattern": "^[a-zA-Z0-9_@-]+$"
+		},
+		"help": "3 to 50 letters, digits, `_`, `-` or `@`."
+	}
+]

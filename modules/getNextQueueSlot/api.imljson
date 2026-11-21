@@ -1,0 +1,10 @@
+{
+	"url": "/api/queue/next-slot",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Get account details",
+	"description": "Returns the Post-Upload account of the connection with its plan and the uploads used this month.",
+	"typeId": 4
+}

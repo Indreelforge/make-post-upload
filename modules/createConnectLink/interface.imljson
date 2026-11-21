@@ -1,0 +1,27 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "access_url",
+		"type": "url",
+		"label": "Connect link"
+	},
+	{
+		"name": "expires_in",
+		"type": "text",
+		"label": "Expires in"
+	},
+	{
+		"name": "expires_at",
+		"type": "date",
+		"label": "Expires at"
+	},
+	{
+		"name": "rotated",
+		"type": "boolean",
+		"label": "Rotated"
+	}
+]

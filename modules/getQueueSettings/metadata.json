@@ -1,0 +1,5 @@
+{
+	"label": "Get queue settings",
+	"description": "Returns the time zone, slot times and posting days of the queue of a profile.",
+	"typeId": 4
+}

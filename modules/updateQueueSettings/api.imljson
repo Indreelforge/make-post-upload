@@ -1,0 +1,15 @@
+{
+	"url": "/api/queue/settings",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"profile_username": "{{parameters.profile}}",
+		"timezone": "{{parameters.timezone}}",
+		"slots": "{{parameters.slots}}",
+		"days_of_week": "{{parameters.days_of_week}}",
+		"max_posts_per_slot": "{{parameters.max_posts_per_slot}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

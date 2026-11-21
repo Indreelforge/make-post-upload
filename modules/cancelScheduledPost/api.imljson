@@ -1,0 +1,7 @@
+{
+	"url": "/api/schedule/{{parameters.job_id}}",
+	"method": "DELETE",
+	"response": {
+		"output": "{{body}}"
+	}
+}

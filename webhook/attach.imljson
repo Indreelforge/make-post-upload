@@ -1,0 +1,25 @@
+{
+	"url": "/api/webhooks/subscriptions",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"url": "{{webhook.url}}",
+		"events": "{{parameters.events}}",
+		"profile": "{{ifempty(parameters.profile, undefined)}}",
+		"name": "Make: Watch upload events",
+		"source": "make"
+	},
+	"response": {
+		"data": {
+			"subscriptionId": "{{body.subscription.id}}"
+		}
+	},
+	"log": {
+		"sanitize": [
+			"request.headers.authorization",
+			"request.body.url",
+			"response.body.secret",
+			"response.body.subscription.url"
+		]
+	}
+}

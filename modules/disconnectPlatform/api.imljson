@@ -1,0 +1,7 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}/disconnect/{{parameters.platform}}",
+	"method": "DELETE",
+	"response": {
+		"output": "{{body}}"
+	}
+}

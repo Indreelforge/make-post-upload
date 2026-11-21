@@ -1,0 +1,57 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "day",
+		"type": "text",
+		"label": "Day"
+	},
+	{
+		"name": "project_used",
+		"type": "uinteger",
+		"label": "Used by all accounts"
+	},
+	{
+		"name": "project_limit",
+		"type": "uinteger",
+		"label": "Limit for all accounts"
+	},
+	{
+		"name": "project_exhausted",
+		"type": "boolean",
+		"label": "Quota used up"
+	},
+	{
+		"name": "user_used",
+		"type": "uinteger",
+		"label": "Used by this account"
+	},
+	{
+		"name": "user_limit",
+		"type": "uinteger",
+		"label": "Limit for this account"
+	},
+	{
+		"name": "remaining",
+		"type": "uinteger",
+		"label": "Remaining"
+	},
+	{
+		"name": "blocked_by",
+		"type": "text",
+		"label": "Blocked by"
+	},
+	{
+		"name": "resets_at",
+		"type": "date",
+		"label": "Resets at"
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone"
+	}
+]

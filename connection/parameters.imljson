@@ -1,0 +1,9 @@
+[
+	{
+		"name": "apiKey",
+		"type": "password",
+		"label": "API key",
+		"required": true,
+		"help": "Create a key in the [Post-Upload dashboard](https://post-upload.com/dashboard/api-keys) under API Keys (two-factor authentication must be on), then paste it here."
+	}
+]

@@ -1,0 +1,9 @@
+{
+	"success": true,
+	"message": "Open oauth_url in a browser to connect Instagram. The link is single-use and expires in 10 minutes.",
+	"oauth_url": "https://www.instagram.com/oauth/authorize?client_id=example&state=example",
+	"single_use": true,
+	"expires_in": 600,
+	"expires_at": "2026-11-21T10:40:00.000Z",
+	"redirect_url": null
+}

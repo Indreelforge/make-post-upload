@@ -1,0 +1,7 @@
+{
+	"url": "/api/x-allowance",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

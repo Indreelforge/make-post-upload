@@ -1,0 +1,54 @@
+{
+	"bluesky": {
+		"connected": false
+	},
+	"discord": {
+		"connected": false
+	},
+	"facebook": {
+		"connected": false
+	},
+	"google_business": {
+		"connected": false
+	},
+	"instagram": {
+		"connected": true,
+		"needs_reauth": false,
+		"username": "mybrand",
+		"avatar": "https://cdn.post-upload.com/avatars/mybrand.jpg",
+		"connected_at": "2026-01-10T12:00:00.000Z"
+	},
+	"linkedin": {
+		"connected": false
+	},
+	"mastodon": {
+		"connected": false
+	},
+	"pinterest": {
+		"connected": false
+	},
+	"reddit": {
+		"connected": false
+	},
+	"slack": {
+		"connected": false
+	},
+	"telegram": {
+		"connected": false
+	},
+	"threads": {
+		"connected": false
+	},
+	"tiktok": {
+		"connected": false
+	},
+	"wordpress": {
+		"connected": false
+	},
+	"x": {
+		"connected": false
+	},
+	"youtube": {
+		"connected": false
+	}
+}

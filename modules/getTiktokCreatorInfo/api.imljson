@@ -1,0 +1,7 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}/tiktok/creator-info",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

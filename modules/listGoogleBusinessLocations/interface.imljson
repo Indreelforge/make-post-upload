@@ -1,0 +1,17 @@
+[
+	{
+		"name": "name",
+		"type": "text",
+		"label": "Location ID"
+	},
+	{
+		"name": "title",
+		"type": "text",
+		"label": "Title"
+	},
+	{
+		"name": "account_id",
+		"type": "text",
+		"label": "Account ID"
+	}
+]

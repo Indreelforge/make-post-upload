@@ -1,0 +1,5 @@
+{
+	"label": "Get the X post allowance",
+	"description": "Returns how many X (formerly Twitter) posts are left this month and when the allowance resets.",
+	"typeId": 4
+}

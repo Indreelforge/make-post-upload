@@ -1,0 +1,5 @@
+{
+	"label": "Cancel a scheduled post",
+	"description": "Cancels a scheduled post before it is published.",
+	"typeId": 4
+}

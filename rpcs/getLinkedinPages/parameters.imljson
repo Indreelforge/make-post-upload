@@ -1,0 +1,8 @@
+[
+	{
+		"name": "profile",
+		"type": "text",
+		"label": "Profile",
+		"required": true
+	}
+]

@@ -1,0 +1,39 @@
+{
+	"event": "upload.partial",
+	"upload_id": "upl_3f2a9c1d0b7e",
+	"request_id": "upl_3f2a9c1d0b7e",
+	"status": "partial",
+	"timestamp": "2026-11-21T10:30:01.000Z",
+	"completed_at": "2026-11-21T10:30:00.000Z",
+	"data": {
+		"title": "Our new product is live",
+		"upload_type": "video",
+		"platforms": [
+			"instagram",
+			"tiktok"
+		],
+		"platform_statuses": {
+			"instagram": "completed",
+			"tiktok": "failed"
+		},
+		"platform_post_ids": {
+			"instagram": "17890000000000000"
+		},
+		"profile": "my-brand",
+		"parent_upload_id": null
+	},
+	"platform_errors": {
+		"tiktok": {
+			"platform": "tiktok",
+			"error": "Video is shorter than 3 seconds",
+			"error_code": "VIDEO_TOO_SHORT"
+		}
+	},
+	"spec_warnings": [],
+	"error_message": "{\"message\":\"TikTok rejected the video\"}",
+	"error_details": {
+		"message": "TikTok rejected the video"
+	},
+	"subscription_id": null,
+	"message": null
+}

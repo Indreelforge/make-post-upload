@@ -1,0 +1,10 @@
+{
+	"url": "/api/queue/settings",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

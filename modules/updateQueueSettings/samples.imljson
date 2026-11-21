@@ -1,0 +1,24 @@
+{
+	"success": true,
+	"profile": "my-brand",
+	"timezone": "America/Los_Angeles",
+	"slots": [
+		{
+			"time": "09:00"
+		},
+		{
+			"time": "12:00"
+		},
+		{
+			"time": "17:00"
+		}
+	],
+	"days_of_week": [
+		1,
+		2,
+		3,
+		4,
+		5
+	],
+	"max_posts_per_slot": 1
+}

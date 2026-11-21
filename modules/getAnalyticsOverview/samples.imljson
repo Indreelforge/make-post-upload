@@ -1,0 +1,12 @@
+{
+	"total_uploads": 128,
+	"period_uploads": 42,
+	"previous_period_uploads": 35,
+	"completed": 120,
+	"failed": 8,
+	"trend": 20,
+	"trend_label": null,
+	"profiles": 3,
+	"api_keys": 2,
+	"range": "30d"
+}

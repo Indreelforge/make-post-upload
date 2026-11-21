@@ -1,0 +1,129 @@
+[
+	{
+		"name": "profile",
+		"type": "text",
+		"label": "Profile"
+	},
+	{
+		"name": "period",
+		"type": "text",
+		"label": "Period"
+	},
+	{
+		"name": "total_uploads",
+		"type": "uinteger",
+		"label": "Total uploads"
+	},
+	{
+		"name": "period_uploads",
+		"type": "uinteger",
+		"label": "Uploads in period"
+	},
+	{
+		"name": "completed",
+		"type": "uinteger",
+		"label": "Completed"
+	},
+	{
+		"name": "failed",
+		"type": "uinteger",
+		"label": "Failed"
+	},
+	{
+		"name": "top_platform",
+		"type": "text",
+		"label": "Top platform"
+	},
+	{
+		"name": "growth_rate",
+		"type": "number",
+		"label": "Growth rate (%)"
+	},
+	{
+		"name": "uploads_by_platform",
+		"type": "collection",
+		"label": "Uploads by platform",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "uinteger",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "uinteger",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "uinteger",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "uinteger",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "uinteger",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "uinteger",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "uinteger",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "uinteger",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "uinteger",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "uinteger",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "uinteger",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "uinteger",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "uinteger",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "uinteger",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "uinteger",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "uinteger",
+				"label": "YouTube"
+			}
+		]
+	}
+]

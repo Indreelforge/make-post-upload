@@ -1,0 +1,7 @@
+{
+	"url": "/api/uploads/{{parameters.upload_id}}",
+	"method": "DELETE",
+	"response": {
+		"output": "{{body}}"
+	}
+}

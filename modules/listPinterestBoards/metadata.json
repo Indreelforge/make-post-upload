@@ -1,0 +1,5 @@
+{
+	"label": "List Pinterest boards",
+	"description": "Returns a list of the Pinterest boards of the profile.",
+	"typeId": 9
+}

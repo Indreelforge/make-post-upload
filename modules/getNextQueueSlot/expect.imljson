@@ -1,0 +1,10 @@
+[
+	{
+		"name": "profile",
+		"type": "select",
+		"label": "Profile",
+		"options": "rpc://getProfiles",
+		"required": true,
+		"help": "The profile whose posting queue to use."
+	}
+]

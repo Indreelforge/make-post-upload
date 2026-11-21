@@ -1,0 +1,5 @@
+{
+	"label": "Get connected accounts",
+	"description": "Returns which platforms are connected to a profile and which need to be reconnected.",
+	"typeId": 4
+}

@@ -1,0 +1,5 @@
+{
+	"label": "Get profile analytics",
+	"description": "Returns the upload statistics of a profile in a period. Requires a Post-Upload plan with analytics.",
+	"typeId": 4
+}

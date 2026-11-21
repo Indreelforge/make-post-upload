@@ -1,0 +1,21 @@
+{
+	"url": "/api/webhooks/config",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"channels": {
+			"webhook": "{{parameters.webhook_enabled}}",
+			"telegram": "{{parameters.telegram_enabled}}"
+		},
+		"webhook_url": "{{parameters.webhook_url}}",
+		"telegram_chat_id": "{{parameters.telegram_chat_id}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	},
+	"log": {
+		"sanitize": [
+			"response.body.webhook_secret"
+		]
+	}
+}

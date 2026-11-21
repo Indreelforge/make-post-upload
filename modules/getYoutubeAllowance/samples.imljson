@@ -1,0 +1,13 @@
+{
+	"success": true,
+	"day": "2026-11-21",
+	"project_used": 40,
+	"project_limit": 100,
+	"project_exhausted": false,
+	"user_used": 2,
+	"user_limit": 25,
+	"remaining": 23,
+	"blocked_by": null,
+	"resets_at": "2026-11-22T08:00:00.000Z",
+	"timezone": "America/Los_Angeles"
+}

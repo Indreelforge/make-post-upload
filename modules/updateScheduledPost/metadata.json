@@ -1,0 +1,5 @@
+{
+	"label": "Update a scheduled post",
+	"description": "Changes the date, title or description of a scheduled post. Fields left empty are not changed.",
+	"typeId": 4
+}

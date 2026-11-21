@@ -1,0 +1,13 @@
+{
+	"url": "/api/queue/preview",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}",
+		"count": 50
+	},
+	"response": {
+		"iterate": "{{body.slots}}",
+		"output": "{{item}}",
+		"limit": "{{parameters.limit}}"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"url": "/api/profiles/{{parameters.profile}}/connect/{{parameters.platform}}",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"redirect_url": "{{parameters.redirect_url}}",
+		"replace_existing": "{{parameters.replace_existing}}"
+	},
+	"response": {
+		"output": "{{body}}"
+	}
+}

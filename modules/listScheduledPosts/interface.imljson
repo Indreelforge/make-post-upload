@@ -1,0 +1,132 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Scheduled post ID"
+	},
+	{
+		"name": "title",
+		"type": "text",
+		"label": "Title or caption"
+	},
+	{
+		"name": "description",
+		"type": "text",
+		"label": "Description"
+	},
+	{
+		"name": "upload_type",
+		"type": "text",
+		"label": "Upload type"
+	},
+	{
+		"name": "platforms",
+		"type": "array",
+		"label": "Platforms",
+		"spec": {
+			"type": "text"
+		}
+	},
+	{
+		"name": "platform_statuses",
+		"type": "collection",
+		"label": "Platform statuses",
+		"spec": [
+			{
+				"name": "bluesky",
+				"type": "text",
+				"label": "Bluesky"
+			},
+			{
+				"name": "discord",
+				"type": "text",
+				"label": "Discord"
+			},
+			{
+				"name": "facebook",
+				"type": "text",
+				"label": "Facebook"
+			},
+			{
+				"name": "google_business",
+				"type": "text",
+				"label": "Google Business Profile"
+			},
+			{
+				"name": "instagram",
+				"type": "text",
+				"label": "Instagram"
+			},
+			{
+				"name": "linkedin",
+				"type": "text",
+				"label": "LinkedIn"
+			},
+			{
+				"name": "mastodon",
+				"type": "text",
+				"label": "Mastodon"
+			},
+			{
+				"name": "pinterest",
+				"type": "text",
+				"label": "Pinterest"
+			},
+			{
+				"name": "reddit",
+				"type": "text",
+				"label": "Reddit"
+			},
+			{
+				"name": "slack",
+				"type": "text",
+				"label": "Slack"
+			},
+			{
+				"name": "telegram",
+				"type": "text",
+				"label": "Telegram"
+			},
+			{
+				"name": "threads",
+				"type": "text",
+				"label": "Threads"
+			},
+			{
+				"name": "tiktok",
+				"type": "text",
+				"label": "TikTok"
+			},
+			{
+				"name": "wordpress",
+				"type": "text",
+				"label": "WordPress"
+			},
+			{
+				"name": "x",
+				"type": "text",
+				"label": "X (formerly Twitter)"
+			},
+			{
+				"name": "youtube",
+				"type": "text",
+				"label": "YouTube"
+			}
+		]
+	},
+	{
+		"name": "scheduled_at",
+		"type": "date",
+		"label": "Scheduled at"
+	},
+	{
+		"name": "timezone",
+		"type": "text",
+		"label": "Time zone"
+	},
+	{
+		"name": "created_at",
+		"type": "date",
+		"label": "Created at"
+	}
+]

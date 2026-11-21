@@ -1,0 +1,9 @@
+{
+	"success": true,
+	"revoked_at_platform": true,
+	"affected_scheduled_uploads": 1,
+	"affected_upload_ids": [
+		"upl_3f2a9c1d0b7e"
+	],
+	"warning": "1 scheduled post still targets Instagram and will fail for that platform unless you reconnect or edit it."
+}

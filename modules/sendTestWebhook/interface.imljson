@@ -1,0 +1,17 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	},
+	{
+		"name": "response_status",
+		"type": "uinteger",
+		"label": "Response status"
+	}
+]

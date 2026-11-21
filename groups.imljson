@@ -1,0 +1,85 @@
+[
+	{
+		"label": "Triggers",
+		"modules": [
+			"watchUploadEvents"
+		]
+	},
+	{
+		"label": "Posts",
+		"modules": [
+			"uploadVideo",
+			"uploadVideoFile",
+			"uploadPhotos",
+			"uploadPhotoFile",
+			"createTextPost",
+			"searchUploads",
+			"getUpload",
+			"getUploadStatus",
+			"retryUpload",
+			"deleteUpload"
+		]
+	},
+	{
+		"label": "Scheduling",
+		"modules": [
+			"listScheduledPosts",
+			"updateScheduledPost",
+			"cancelScheduledPost",
+			"listQueueSlots",
+			"getNextQueueSlot",
+			"getQueueSettings",
+			"updateQueueSettings"
+		]
+	},
+	{
+		"label": "Profiles",
+		"modules": [
+			"listProfiles",
+			"getProfile",
+			"getConnectedAccounts",
+			"getTiktokCreatorInfo",
+			"createProfile",
+			"createConnectLink",
+			"createPlatformConnectLink",
+			"disconnectPlatform",
+			"deleteProfile"
+		]
+	},
+	{
+		"label": "Platforms",
+		"modules": [
+			"listFacebookPages",
+			"listLinkedinPages",
+			"listPinterestBoards",
+			"listGoogleBusinessLocations",
+			"searchPublishedPosts"
+		]
+	},
+	{
+		"label": "Analytics and account",
+		"modules": [
+			"getAnalyticsOverview",
+			"getProfileAnalytics",
+			"getAccount",
+			"getPlatformLimits",
+			"getXAllowance",
+			"getYoutubeAllowance"
+		]
+	},
+	{
+		"label": "Webhooks",
+		"modules": [
+			"getWebhookSettings",
+			"updateWebhookSettings",
+			"sendTestWebhook",
+			"listWebhookDeliveries"
+		]
+	},
+	{
+		"label": "Other",
+		"modules": [
+			"makeApiCall"
+		]
+	}
+]

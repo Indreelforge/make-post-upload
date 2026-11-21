@@ -1,0 +1,22 @@
+[
+	{
+		"name": "scheduled_date",
+		"type": "date",
+		"label": "Scheduled date"
+	},
+	{
+		"name": "slot_time",
+		"type": "text",
+		"label": "Slot time"
+	},
+	{
+		"name": "day",
+		"type": "text",
+		"label": "Day"
+	},
+	{
+		"name": "available",
+		"type": "boolean",
+		"label": "Available"
+	}
+]

@@ -1,0 +1,199 @@
+{
+	"_source": "Request fields of the Zapier app (github.com/Indreelforge/zapier-post-upload @ b1ec10b): lib.js uploadBody(), creates/manage.js, searches/index.js, triggers/uploadEvents.js performSubscribe. Regenerate by hand when the Zapier app changes.",
+	"_zapierUploadBodyExample": {
+		"input": {
+			"profile": "my-brand",
+			"title": "Launch",
+			"platforms": [
+				"instagram",
+				"tiktok"
+			],
+			"description": "Watch it",
+			"schedule": "2026-12-01T09:30:00+00:00",
+			"timezone": "Europe/London",
+			"add_to_queue": true,
+			"first_comment": "First!",
+			"reference": "ref-1",
+			"platform_options": {}
+		},
+		"body": {
+			"user": "my-brand",
+			"title": "Launch",
+			"platforms": [
+				"instagram",
+				"tiktok"
+			],
+			"async_upload": true,
+			"description": "Watch it",
+			"schedule": "2026-12-01T09:30:00+00:00",
+			"timezone": "Europe/London",
+			"add_to_queue": true,
+			"first_comment": "First!",
+			"request_id": "ref-1"
+		}
+	},
+	"operations": {
+		"uploadVideo": {
+			"zapier": "upload_video",
+			"method": "POST",
+			"path": "/api/upload",
+			"body": [
+				"user",
+				"title",
+				"platforms",
+				"async_upload",
+				"description",
+				"schedule",
+				"timezone",
+				"add_to_queue",
+				"first_comment",
+				"request_id",
+				"video_url"
+			]
+		},
+		"uploadVideoFile": {
+			"zapier": "upload_video (file input)",
+			"method": "POST",
+			"path": "/api/upload",
+			"body": [
+				"user",
+				"title",
+				"platforms",
+				"async_upload",
+				"description",
+				"schedule",
+				"timezone",
+				"add_to_queue",
+				"first_comment",
+				"request_id",
+				"video"
+			]
+		},
+		"uploadPhotos": {
+			"zapier": "upload_photos",
+			"method": "POST",
+			"path": "/api/upload_photos",
+			"body": [
+				"user",
+				"title",
+				"platforms",
+				"async_upload",
+				"description",
+				"schedule",
+				"timezone",
+				"add_to_queue",
+				"first_comment",
+				"request_id",
+				"photo_urls"
+			]
+		},
+		"uploadPhotoFile": {
+			"zapier": "upload_photos (file input)",
+			"method": "POST",
+			"path": "/api/upload_photos",
+			"body": [
+				"user",
+				"title",
+				"platforms",
+				"async_upload",
+				"description",
+				"schedule",
+				"timezone",
+				"add_to_queue",
+				"first_comment",
+				"request_id",
+				"photos[]"
+			]
+		},
+		"createTextPost": {
+			"zapier": "post_text",
+			"method": "POST",
+			"path": "/api/upload_text",
+			"body": [
+				"user",
+				"title",
+				"platforms",
+				"async_upload",
+				"description",
+				"schedule",
+				"timezone",
+				"add_to_queue",
+				"first_comment",
+				"request_id"
+			]
+		},
+		"updateScheduledPost": {
+			"zapier": "edit_scheduled_post",
+			"method": "PATCH",
+			"path": "/api/schedule/{jobId}",
+			"body": [
+				"scheduled_date",
+				"timezone",
+				"title",
+				"caption"
+			]
+		},
+		"cancelScheduledPost": {
+			"zapier": "cancel_scheduled_post",
+			"method": "DELETE",
+			"path": "/api/schedule/{jobId}",
+			"body": []
+		},
+		"retryUpload": {
+			"zapier": "retry_upload",
+			"method": "POST",
+			"path": "/api/uploads/{upload_id}/retry",
+			"body": []
+		},
+		"createProfile": {
+			"zapier": "create_profile",
+			"method": "POST",
+			"path": "/api/profiles",
+			"body": [
+				"name"
+			]
+		},
+		"createConnectLink": {
+			"zapier": "get_connect_link",
+			"method": "POST",
+			"path": "/api/whitelabel/generate-jwt",
+			"body": [
+				"username",
+				"redirect_url",
+				"logo_image",
+				"connect_title",
+				"expires_in_hours"
+			]
+		},
+		"getUploadStatus": {
+			"zapier": "find_upload",
+			"method": "GET",
+			"path": "/api/uploadposts/status",
+			"qs": [
+				"request_id"
+			]
+		},
+		"getProfile": {
+			"zapier": "find_profile",
+			"method": "GET",
+			"path": "/api/profiles/{name}"
+		},
+		"webhook/attach": {
+			"zapier": "upload_* triggers performSubscribe",
+			"method": "POST",
+			"path": "/api/webhooks/subscriptions",
+			"body": [
+				"url",
+				"events",
+				"source",
+				"name",
+				"profile"
+			]
+		},
+		"webhook/detach": {
+			"zapier": "upload_* triggers performUnsubscribe",
+			"method": "DELETE",
+			"path": "/api/webhooks/subscriptions/{id}"
+		}
+	}
+}

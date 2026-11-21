@@ -1,0 +1,7 @@
+{
+	"url": "/api/platform-limits",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

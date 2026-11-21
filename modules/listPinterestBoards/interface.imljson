@@ -1,0 +1,27 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Board ID"
+	},
+	{
+		"name": "name",
+		"type": "text",
+		"label": "Name"
+	},
+	{
+		"name": "description",
+		"type": "text",
+		"label": "Description"
+	},
+	{
+		"name": "privacy",
+		"type": "text",
+		"label": "Privacy"
+	},
+	{
+		"name": "pin_count",
+		"type": "uinteger",
+		"label": "Pin count"
+	}
+]

@@ -1,0 +1,15 @@
+{
+	"url": "/api/platforms/pinterest/boards",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}"
+	},
+	"response": {
+		"iterate": "{{body.boards}}",
+		"output": {
+			"label": "{{item.name}}",
+			"value": "{{item.id}}"
+		},
+		"limit": 300
+	}
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "success",
+		"type": "boolean",
+		"label": "Success"
+	},
+	{
+		"name": "message",
+		"type": "text",
+		"label": "Message"
+	},
+	{
+		"name": "oauth_url",
+		"type": "url",
+		"label": "Connect link"
+	},
+	{
+		"name": "single_use",
+		"type": "boolean",
+		"label": "Single use"
+	},
+	{
+		"name": "expires_in",
+		"type": "uinteger",
+		"label": "Expires in seconds"
+	},
+	{
+		"name": "expires_at",
+		"type": "date",
+		"label": "Expires at"
+	},
+	{
+		"name": "redirect_url",
+		"type": "url",
+		"label": "Redirect URL"
+	}
+]

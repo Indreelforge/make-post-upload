@@ -1,0 +1,5 @@
+{
+	"label": "List LinkedIn pages",
+	"description": "Returns a list of the LinkedIn company pages the profile manages.",
+	"typeId": 9
+}

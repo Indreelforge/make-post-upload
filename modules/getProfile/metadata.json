@@ -1,0 +1,5 @@
+{
+	"label": "Get a profile",
+	"description": "Returns a profile by its name with its connected social accounts.",
+	"typeId": 4
+}

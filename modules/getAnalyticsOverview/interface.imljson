@@ -1,0 +1,52 @@
+[
+	{
+		"name": "total_uploads",
+		"type": "uinteger",
+		"label": "Total uploads"
+	},
+	{
+		"name": "period_uploads",
+		"type": "uinteger",
+		"label": "Uploads in period"
+	},
+	{
+		"name": "previous_period_uploads",
+		"type": "uinteger",
+		"label": "Uploads in previous period"
+	},
+	{
+		"name": "completed",
+		"type": "uinteger",
+		"label": "Completed"
+	},
+	{
+		"name": "failed",
+		"type": "uinteger",
+		"label": "Failed"
+	},
+	{
+		"name": "trend",
+		"type": "number",
+		"label": "Trend (%)"
+	},
+	{
+		"name": "trend_label",
+		"type": "text",
+		"label": "Trend label"
+	},
+	{
+		"name": "profiles",
+		"type": "uinteger",
+		"label": "Profiles"
+	},
+	{
+		"name": "api_keys",
+		"type": "uinteger",
+		"label": "API keys"
+	},
+	{
+		"name": "range",
+		"type": "text",
+		"label": "Period"
+	}
+]

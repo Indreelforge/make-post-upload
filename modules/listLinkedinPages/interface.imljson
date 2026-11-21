@@ -1,0 +1,17 @@
+[
+	{
+		"name": "id",
+		"type": "text",
+		"label": "Page ID"
+	},
+	{
+		"name": "urn",
+		"type": "text",
+		"label": "URN"
+	},
+	{
+		"name": "name",
+		"type": "text",
+		"label": "Name"
+	}
+]

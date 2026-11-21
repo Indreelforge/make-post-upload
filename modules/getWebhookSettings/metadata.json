@@ -1,0 +1,5 @@
+{
+	"label": "Get webhook settings",
+	"description": "Returns the account webhook URL and whether webhook and Telegram notifications are on.",
+	"typeId": 4
+}

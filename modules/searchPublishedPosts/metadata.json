@@ -1,0 +1,5 @@
+{
+	"label": "Search published posts",
+	"description": "Returns a list of the posts a profile published through Post-Upload, newest first, filtered by platform.",
+	"typeId": 9
+}

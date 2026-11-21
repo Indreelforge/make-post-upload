@@ -1,0 +1,5 @@
+{
+	"label": "Send a test webhook event",
+	"description": "Sends a signed test event to the account webhook URL. Requires the Post-Upload Advanced plan or higher.",
+	"typeId": 4
+}

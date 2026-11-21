@@ -1,0 +1,7 @@
+{
+	"url": "/api/uploads/{{parameters.upload_id}}",
+	"method": "GET",
+	"response": {
+		"output": "{{body}}"
+	}
+}

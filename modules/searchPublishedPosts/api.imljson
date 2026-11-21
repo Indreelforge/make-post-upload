@@ -1,0 +1,13 @@
+{
+	"url": "/api/platforms/media",
+	"method": "GET",
+	"qs": {
+		"profile": "{{parameters.profile}}",
+		"platform": "{{parameters.platform}}"
+	},
+	"response": {
+		"iterate": "{{body.media}}",
+		"output": "{{item}}",
+		"limit": "{{parameters.limit}}"
+	}
+}
