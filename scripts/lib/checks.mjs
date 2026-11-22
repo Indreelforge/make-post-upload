@@ -15,7 +15,7 @@ const LABEL_VERBS = {
   [TYPE.UNIVERSAL]: ['Make'],
 };
 // Words that keep their capitals inside a sentence-case label (proper nouns, products, acronyms).
-const PROPER = new Set(['Post-Upload', 'API', 'ID', 'IDs', 'URL', 'URLs', 'TikTok', 'YouTube', 'LinkedIn', 'Facebook', 'Pinterest', 'Google', 'Business', 'Instagram', 'X', 'Reddit', 'Bluesky', 'Telegram', 'Slack', 'Discord', 'Mastodon', 'Threads', 'WordPress', 'MB', 'HTTPS']);
+const PROPER = new Set(['Post-Upload', 'API', 'ID', 'IDs', 'URL', 'URLs', 'TikTok', 'YouTube', 'LinkedIn', 'Facebook', 'Pinterest', 'Google', 'Business', 'Instagram', 'X', 'Reddit', 'Bluesky', 'Telegram', 'Slack', 'Discord', 'Mastodon', 'Threads', 'WordPress', 'Dev.to', 'Hashnode', 'Lemmy', 'Nostr', 'Whop', 'Listmonk', 'MB', 'HTTPS']);
 
 const PROPER_PHRASES = ['Google Business Profile', 'X (formerly Twitter)'];
 

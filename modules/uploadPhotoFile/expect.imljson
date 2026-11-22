@@ -31,16 +31,32 @@
 				"value": "google_business"
 			},
 			{
+				"label": "Hashnode",
+				"value": "hashnode"
+			},
+			{
 				"label": "Instagram",
 				"value": "instagram"
+			},
+			{
+				"label": "Lemmy",
+				"value": "lemmy"
 			},
 			{
 				"label": "LinkedIn",
 				"value": "linkedin"
 			},
 			{
+				"label": "Listmonk",
+				"value": "listmonk"
+			},
+			{
 				"label": "Mastodon",
 				"value": "mastodon"
+			},
+			{
+				"label": "Nostr",
+				"value": "nostr"
 			},
 			{
 				"label": "Pinterest",
@@ -57,6 +73,10 @@
 			{
 				"label": "TikTok",
 				"value": "tiktok"
+			},
+			{
+				"label": "Whop",
+				"value": "whop"
 			},
 			{
 				"label": "WordPress",
@@ -90,14 +110,14 @@
 		"label": "Title or caption",
 		"multiline": true,
 		"required": true,
-		"help": "The post text. It is the video title on YouTube and the caption everywhere else."
+		"help": "The post text. It is the video title on YouTube, the article title on Dev.to and Hashnode, the post title on Lemmy, the email subject on Listmonk, and the caption everywhere else."
 	},
 	{
 		"name": "description",
 		"type": "text",
 		"label": "Description",
 		"multiline": true,
-		"help": "Optional longer text: the YouTube description, and added below the title on the other networks."
+		"help": "Optional longer text: the YouTube description, the Markdown body on Dev.to, Hashnode, Lemmy, Whop forums and Listmonk, and added below the title on the other networks."
 	},
 	{
 		"name": "schedule",
@@ -168,6 +188,20 @@
 		"options": "rpc://getGoogleBusinessLocations",
 		"advanced": true,
 		"help": "The Google Business Profile location to post to. Default: the first location."
+	},
+	{
+		"name": "lemmy_url",
+		"type": "url",
+		"label": "Lemmy link",
+		"advanced": true,
+		"help": "An `https://` link. On a text post it makes a Lemmy link post; on a photo post it is added to the end of the body."
+	},
+	{
+		"name": "listmonk_draft",
+		"type": "boolean",
+		"label": "Listmonk draft",
+		"advanced": true,
+		"help": "Create the Listmonk campaign as a draft instead of emailing every subscriber on the connected lists right away."
 	},
 	{
 		"name": "platform_options",

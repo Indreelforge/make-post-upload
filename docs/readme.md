@@ -1,6 +1,6 @@
 # Post-Upload
 
-[Post-Upload](https://post-upload.com) publishes videos, photos and text to 16 social networks with one API call: Instagram, YouTube, TikTok, Facebook, X, LinkedIn, Threads, Pinterest, Reddit, Google Business Profile, Bluesky, Discord, Telegram, Slack, Mastodon and WordPress.
+[Post-Upload](https://post-upload.com) publishes videos, photos and text to 22 platforms with one API call: Instagram, YouTube, TikTok, Facebook, X, LinkedIn, Threads, Pinterest, Reddit, Google Business Profile, Bluesky, Discord, Telegram, Slack, Mastodon, WordPress, Dev.to, Hashnode, Lemmy, Nostr, Whop and Listmonk.
 
 ## Connect Post-Upload to Make
 
@@ -23,6 +23,8 @@ Some networks need extra options:
 | Reddit | **Subreddit** is required. |
 | YouTube | **YouTube privacy** (default public). |
 | Facebook, LinkedIn, Google Business Profile | Pick the page or location to post to. |
+| Dev.to, Hashnode, Lemmy, Listmonk | **Title or caption** is the article title, post title or email subject; **Description** is the Markdown body. Optional **Dev.to tags** and **Lemmy link**. |
+| Listmonk | Every post emails your connected lists right away. Turn on **Listmonk draft** to create the campaign as a draft instead. |
 
 Any other API option (`youtube_tags`, `pinterest_link`, `reddit_flair_id` …) goes into **Other platform options**. The [platform guides](https://docs.post-upload.com/platform-guides/tiktok) list them.
 

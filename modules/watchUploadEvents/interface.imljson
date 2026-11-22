@@ -63,6 +63,11 @@
 						"label": "Bluesky"
 					},
 					{
+						"name": "devto",
+						"type": "text",
+						"label": "Dev.to"
+					},
+					{
 						"name": "discord",
 						"type": "text",
 						"label": "Discord"
@@ -78,9 +83,19 @@
 						"label": "Google Business Profile"
 					},
 					{
+						"name": "hashnode",
+						"type": "text",
+						"label": "Hashnode"
+					},
+					{
 						"name": "instagram",
 						"type": "text",
 						"label": "Instagram"
+					},
+					{
+						"name": "lemmy",
+						"type": "text",
+						"label": "Lemmy"
 					},
 					{
 						"name": "linkedin",
@@ -88,9 +103,19 @@
 						"label": "LinkedIn"
 					},
 					{
+						"name": "listmonk",
+						"type": "text",
+						"label": "Listmonk"
+					},
+					{
 						"name": "mastodon",
 						"type": "text",
 						"label": "Mastodon"
+					},
+					{
+						"name": "nostr",
+						"type": "text",
+						"label": "Nostr"
 					},
 					{
 						"name": "pinterest",
@@ -121,6 +146,11 @@
 						"name": "tiktok",
 						"type": "text",
 						"label": "TikTok"
+					},
+					{
+						"name": "whop",
+						"type": "text",
+						"label": "Whop"
 					},
 					{
 						"name": "wordpress",
@@ -150,6 +180,11 @@
 						"label": "Bluesky"
 					},
 					{
+						"name": "devto",
+						"type": "text",
+						"label": "Dev.to"
+					},
+					{
 						"name": "discord",
 						"type": "text",
 						"label": "Discord"
@@ -165,9 +200,19 @@
 						"label": "Google Business Profile"
 					},
 					{
+						"name": "hashnode",
+						"type": "text",
+						"label": "Hashnode"
+					},
+					{
 						"name": "instagram",
 						"type": "text",
 						"label": "Instagram"
+					},
+					{
+						"name": "lemmy",
+						"type": "text",
+						"label": "Lemmy"
 					},
 					{
 						"name": "linkedin",
@@ -175,9 +220,19 @@
 						"label": "LinkedIn"
 					},
 					{
+						"name": "listmonk",
+						"type": "text",
+						"label": "Listmonk"
+					},
+					{
 						"name": "mastodon",
 						"type": "text",
 						"label": "Mastodon"
+					},
+					{
+						"name": "nostr",
+						"type": "text",
+						"label": "Nostr"
 					},
 					{
 						"name": "pinterest",
@@ -208,6 +263,11 @@
 						"name": "tiktok",
 						"type": "text",
 						"label": "TikTok"
+					},
+					{
+						"name": "whop",
+						"type": "text",
+						"label": "Whop"
 					},
 					{
 						"name": "wordpress",
@@ -247,6 +307,28 @@
 				"name": "bluesky",
 				"type": "collection",
 				"label": "Bluesky",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "devto",
+				"type": "collection",
+				"label": "Dev.to",
 				"spec": [
 					{
 						"name": "platform",
@@ -332,9 +414,53 @@
 				]
 			},
 			{
+				"name": "hashnode",
+				"type": "collection",
+				"label": "Hashnode",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
 				"name": "instagram",
 				"type": "collection",
 				"label": "Instagram",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "lemmy",
+				"type": "collection",
+				"label": "Lemmy",
 				"spec": [
 					{
 						"name": "platform",
@@ -376,9 +502,53 @@
 				]
 			},
 			{
+				"name": "listmonk",
+				"type": "collection",
+				"label": "Listmonk",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
 				"name": "mastodon",
 				"type": "collection",
 				"label": "Mastodon",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "nostr",
+				"type": "collection",
+				"label": "Nostr",
 				"spec": [
 					{
 						"name": "platform",
@@ -511,6 +681,28 @@
 				"name": "tiktok",
 				"type": "collection",
 				"label": "TikTok",
+				"spec": [
+					{
+						"name": "platform",
+						"type": "text",
+						"label": "Platform"
+					},
+					{
+						"name": "error",
+						"type": "text",
+						"label": "Error"
+					},
+					{
+						"name": "error_code",
+						"type": "text",
+						"label": "Error code"
+					}
+				]
+			},
+			{
+				"name": "whop",
+				"type": "collection",
+				"label": "Whop",
 				"spec": [
 					{
 						"name": "platform",

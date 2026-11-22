@@ -19,6 +19,10 @@
 				"value": "bluesky"
 			},
 			{
+				"label": "Dev.to",
+				"value": "devto"
+			},
+			{
 				"label": "Discord",
 				"value": "discord"
 			},
@@ -31,12 +35,28 @@
 				"value": "google_business"
 			},
 			{
+				"label": "Hashnode",
+				"value": "hashnode"
+			},
+			{
+				"label": "Lemmy",
+				"value": "lemmy"
+			},
+			{
 				"label": "LinkedIn",
 				"value": "linkedin"
 			},
 			{
+				"label": "Listmonk",
+				"value": "listmonk"
+			},
+			{
 				"label": "Mastodon",
 				"value": "mastodon"
+			},
+			{
+				"label": "Nostr",
+				"value": "nostr"
 			},
 			{
 				"label": "Reddit",
@@ -55,6 +75,10 @@
 				"value": "threads"
 			},
 			{
+				"label": "Whop",
+				"value": "whop"
+			},
+			{
 				"label": "WordPress",
 				"value": "wordpress"
 			},
@@ -71,14 +95,14 @@
 		"label": "Title or caption",
 		"multiline": true,
 		"required": true,
-		"help": "The post text. It is the video title on YouTube and the caption everywhere else."
+		"help": "The post text. It is the video title on YouTube, the article title on Dev.to and Hashnode, the post title on Lemmy, the email subject on Listmonk, and the caption everywhere else."
 	},
 	{
 		"name": "description",
 		"type": "text",
 		"label": "Description",
 		"multiline": true,
-		"help": "Optional longer text: the YouTube description, and added below the title on the other networks."
+		"help": "Optional longer text: the YouTube description, the Markdown body on Dev.to, Hashnode, Lemmy, Whop forums and Listmonk, and added below the title on the other networks."
 	},
 	{
 		"name": "schedule",
@@ -140,6 +164,27 @@
 		"label": "Subreddit",
 		"advanced": true,
 		"help": "Required when posting to Reddit. The subreddit name without r/, for example `test`."
+	},
+	{
+		"name": "devto_tags",
+		"type": "text",
+		"label": "Dev.to tags",
+		"advanced": true,
+		"help": "Up to 4 comma-separated tags for the Dev.to article, for example `javascript, webdev`."
+	},
+	{
+		"name": "lemmy_url",
+		"type": "url",
+		"label": "Lemmy link",
+		"advanced": true,
+		"help": "An `https://` link. On a text post it makes a Lemmy link post; on a photo post it is added to the end of the body."
+	},
+	{
+		"name": "listmonk_draft",
+		"type": "boolean",
+		"label": "Listmonk draft",
+		"advanced": true,
+		"help": "Create the Listmonk campaign as a draft instead of emailing every subscriber on the connected lists right away."
 	},
 	{
 		"name": "platform_options",

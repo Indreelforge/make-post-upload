@@ -111,3 +111,20 @@ test('no secrets or private hosts in the source', () => {
     assert.doesNotMatch(text, /(sk|pk)_(live|test)_[A-Za-z0-9]{8,}|Apikey [A-Za-z0-9]{16,}/, file);
   }
 });
+
+test('upload modules offer every platform that accepts their content type (shared/platforms.json, 22 platforms)', () => {
+  const CONTENT = {
+    instagram: 'vp', youtube: 'v', facebook: 'vpt', tiktok: 'vp', x: 'vpt', linkedin: 'vpt', threads: 'vpt', pinterest: 'vp',
+    reddit: 't', bluesky: 'vpt', google_business: 'pt', discord: 'vpt', telegram: 'vpt', slack: 't', mastodon: 'vpt', wordpress: 'vpt',
+    devto: 't', hashnode: 'pt', lemmy: 'pt', nostr: 'pt', whop: 'vpt', listmonk: 'pt',
+  };
+  const accepts = (type) => Object.keys(CONTENT).filter((k) => CONTENT[k].includes(type)).sort();
+  const MODULES = { uploadVideo: 'v', uploadVideoFile: 'v', uploadPhotos: 'p', uploadPhotoFile: 'p', createTextPost: 't' };
+  for (const [name, type] of Object.entries(MODULES)) {
+    const param = project.modules.find((m) => m.name === name).sections.expect.data.find((p) => p.name === 'platforms');
+    assert.deepEqual(param.options.map((o) => o.value).sort(), accepts(type), name);
+    for (const o of param.options) assert.ok(o.label, `${name}: ${o.value} has a label`);
+  }
+  const all = project.modules.find((m) => m.name === 'disconnectPlatform').sections.expect.data.find((p) => p.name === 'platform');
+  assert.deepEqual(all.options.map((o) => o.value).sort(), Object.keys(CONTENT).sort());
+});

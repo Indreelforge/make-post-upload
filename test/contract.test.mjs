@@ -19,14 +19,6 @@ const BASE = project.base.data.baseUrl;
 // Fields the API accepts (see the route code) that the OpenAPI document does not describe yet.
 // Each entry is an OpenAPI gap to fix in backend/public/openapi.json, not an app problem.
 const UNDOCUMENTED = {
-  'POST /api/profiles/{}/connect/{}': { body: ['redirect_url', 'replace_existing'] },
-  'POST /api/queue/settings': { body: ['profile_username', 'timezone', 'slots', 'days_of_week', 'max_posts_per_slot'] },
-  'GET /api/queue/settings': { qs: ['profile'] },
-  'GET /api/queue/next-slot': { qs: ['profile'] },
-  'GET /api/queue/preview': { qs: ['profile', 'count'] },
-  'GET /api/platforms/media': { qs: ['profile', 'platform'] },
-  'GET /api/analytics/overview': { qs: ['range', 'profile', 'platform'] },
-  'GET /api/analytics/profile/{}': { qs: ['range'] },
 };
 
 /** Every outgoing request definition: [owner, request]. */

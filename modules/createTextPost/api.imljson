@@ -17,6 +17,9 @@
 		"target_linkedin_page_id": "{{parameters.target_linkedin_page_id}}",
 		"gbp_location_id": "{{parameters.gbp_location_id}}",
 		"reddit_subreddit": "{{parameters.reddit_subreddit}}",
+		"devto_tags": "{{parameters.devto_tags}}",
+		"lemmy_url": "{{parameters.lemmy_url}}",
+		"listmonk_draft": "{{if(parameters.listmonk_draft, true, undefined)}}",
 		"async_upload": true
 	},
 	"response": {

@@ -55,6 +55,10 @@
 				"value": "tiktok"
 			},
 			{
+				"label": "Whop",
+				"value": "whop"
+			},
+			{
 				"label": "WordPress",
 				"value": "wordpress"
 			},
@@ -90,14 +94,14 @@
 		"label": "Title or caption",
 		"multiline": true,
 		"required": true,
-		"help": "The post text. It is the video title on YouTube and the caption everywhere else."
+		"help": "The post text. It is the video title on YouTube, the article title on Dev.to and Hashnode, the post title on Lemmy, the email subject on Listmonk, and the caption everywhere else."
 	},
 	{
 		"name": "description",
 		"type": "text",
 		"label": "Description",
 		"multiline": true,
-		"help": "Optional longer text: the YouTube description, and added below the title on the other networks."
+		"help": "Optional longer text: the YouTube description, the Markdown body on Dev.to, Hashnode, Lemmy, Whop forums and Listmonk, and added below the title on the other networks."
 	},
 	{
 		"name": "schedule",

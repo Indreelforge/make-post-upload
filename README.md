@@ -1,6 +1,6 @@
 # Post-Upload for Make
 
-A native [Make](https://www.make.com) custom app for [Post-Upload](https://post-upload.com): publish videos, photos and text to 16 social networks, schedule posts, manage profiles and react to upload events.
+A native [Make](https://www.make.com) custom app for [Post-Upload](https://post-upload.com): publish videos, photos and text to 22 platforms, schedule posts, manage profiles and react to upload events.
 
 The source is plain Make component files (`.imljson`), uploaded with the official TypeScript SDK [`@makehq/sdk`](https://www.npmjs.com/package/@makehq/sdk) 1.8.1.
 

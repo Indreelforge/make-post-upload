@@ -17,6 +17,10 @@
 				"value": "bluesky"
 			},
 			{
+				"label": "Dev.to",
+				"value": "devto"
+			},
+			{
 				"label": "Discord",
 				"value": "discord"
 			},
@@ -29,16 +33,32 @@
 				"value": "google_business"
 			},
 			{
+				"label": "Hashnode",
+				"value": "hashnode"
+			},
+			{
 				"label": "Instagram",
 				"value": "instagram"
+			},
+			{
+				"label": "Lemmy",
+				"value": "lemmy"
 			},
 			{
 				"label": "LinkedIn",
 				"value": "linkedin"
 			},
 			{
+				"label": "Listmonk",
+				"value": "listmonk"
+			},
+			{
 				"label": "Mastodon",
 				"value": "mastodon"
+			},
+			{
+				"label": "Nostr",
+				"value": "nostr"
 			},
 			{
 				"label": "Pinterest",
@@ -63,6 +83,10 @@
 			{
 				"label": "TikTok",
 				"value": "tiktok"
+			},
+			{
+				"label": "Whop",
+				"value": "whop"
 			},
 			{
 				"label": "WordPress",

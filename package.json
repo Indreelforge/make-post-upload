@@ -1,7 +1,7 @@
 {
   "name": "make-post-upload",
   "version": "1.0.0",
-  "description": "Post-Upload for Make: publish videos, photos and text to 16 social networks, schedule posts and react to upload events.",
+  "description": "Post-Upload for Make: publish videos, photos and text to 22 platforms, schedule posts and react to upload events.",
   "license": "MIT",
   "private": true,
   "type": "module",

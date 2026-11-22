@@ -54,6 +54,19 @@ test('platform options are sent as top-level API fields', () => {
   assert.equal(text.reddit_subreddit, 'test');
 });
 
+test('Dev.to, Lemmy and Listmonk options are sent only when set', () => {
+  const text = render(api('createTextPost').body, { parameters: { ...minimal, devto_tags: 'javascript, webdev', lemmy_url: 'https://example.com/a', listmonk_draft: true } });
+  assert.equal(text.devto_tags, 'javascript, webdev');
+  assert.equal(text.lemmy_url, 'https://example.com/a');
+  assert.equal(text.listmonk_draft, true);
+  const off = render(api('createTextPost').body, { parameters: { ...minimal, listmonk_draft: false } });
+  assert.equal('listmonk_draft' in off, false);
+  const photo = render(api('uploadPhotoFile').body, { parameters: { ...minimal, listmonk_draft: true, photo_name: 'p.jpg', photo_data: Buffer.from('x') } });
+  assert.equal(photo.listmonk_draft, 'true');
+  const photoOff = render(api('uploadPhotoFile').body, { parameters: { ...minimal, photo_name: 'p.jpg', photo_data: Buffer.from('x') } });
+  assert.equal('listmonk_draft' in photoOff, false);
+});
+
 test('file uploads send multipart text parts and the file part', () => {
   const data = Buffer.from('fake video');
   const body = render(api('uploadVideoFile').body, { parameters: { ...minimal, video_name: 'launch.mp4', video_data: data } });

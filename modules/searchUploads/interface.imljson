@@ -43,6 +43,11 @@
 				"label": "Bluesky"
 			},
 			{
+				"name": "devto",
+				"type": "text",
+				"label": "Dev.to"
+			},
+			{
 				"name": "discord",
 				"type": "text",
 				"label": "Discord"
@@ -58,9 +63,19 @@
 				"label": "Google Business Profile"
 			},
 			{
+				"name": "hashnode",
+				"type": "text",
+				"label": "Hashnode"
+			},
+			{
 				"name": "instagram",
 				"type": "text",
 				"label": "Instagram"
+			},
+			{
+				"name": "lemmy",
+				"type": "text",
+				"label": "Lemmy"
 			},
 			{
 				"name": "linkedin",
@@ -68,9 +83,19 @@
 				"label": "LinkedIn"
 			},
 			{
+				"name": "listmonk",
+				"type": "text",
+				"label": "Listmonk"
+			},
+			{
 				"name": "mastodon",
 				"type": "text",
 				"label": "Mastodon"
+			},
+			{
+				"name": "nostr",
+				"type": "text",
+				"label": "Nostr"
 			},
 			{
 				"name": "pinterest",
@@ -101,6 +126,11 @@
 				"name": "tiktok",
 				"type": "text",
 				"label": "TikTok"
+			},
+			{
+				"name": "whop",
+				"type": "text",
+				"label": "Whop"
 			},
 			{
 				"name": "wordpress",
@@ -130,6 +160,11 @@
 				"label": "Bluesky"
 			},
 			{
+				"name": "devto",
+				"type": "text",
+				"label": "Dev.to"
+			},
+			{
 				"name": "discord",
 				"type": "text",
 				"label": "Discord"
@@ -145,9 +180,19 @@
 				"label": "Google Business Profile"
 			},
 			{
+				"name": "hashnode",
+				"type": "text",
+				"label": "Hashnode"
+			},
+			{
 				"name": "instagram",
 				"type": "text",
 				"label": "Instagram"
+			},
+			{
+				"name": "lemmy",
+				"type": "text",
+				"label": "Lemmy"
 			},
 			{
 				"name": "linkedin",
@@ -155,9 +200,19 @@
 				"label": "LinkedIn"
 			},
 			{
+				"name": "listmonk",
+				"type": "text",
+				"label": "Listmonk"
+			},
+			{
 				"name": "mastodon",
 				"type": "text",
 				"label": "Mastodon"
+			},
+			{
+				"name": "nostr",
+				"type": "text",
+				"label": "Nostr"
 			},
 			{
 				"name": "pinterest",
@@ -188,6 +243,11 @@
 				"name": "tiktok",
 				"type": "text",
 				"label": "TikTok"
+			},
+			{
+				"name": "whop",
+				"type": "text",
+				"label": "Whop"
 			},
 			{
 				"name": "wordpress",
@@ -217,6 +277,11 @@
 				"label": "Bluesky"
 			},
 			{
+				"name": "devto",
+				"type": "url",
+				"label": "Dev.to"
+			},
+			{
 				"name": "discord",
 				"type": "url",
 				"label": "Discord"
@@ -232,9 +297,19 @@
 				"label": "Google Business Profile"
 			},
 			{
+				"name": "hashnode",
+				"type": "url",
+				"label": "Hashnode"
+			},
+			{
 				"name": "instagram",
 				"type": "url",
 				"label": "Instagram"
+			},
+			{
+				"name": "lemmy",
+				"type": "url",
+				"label": "Lemmy"
 			},
 			{
 				"name": "linkedin",
@@ -242,9 +317,19 @@
 				"label": "LinkedIn"
 			},
 			{
+				"name": "listmonk",
+				"type": "url",
+				"label": "Listmonk"
+			},
+			{
 				"name": "mastodon",
 				"type": "url",
 				"label": "Mastodon"
+			},
+			{
+				"name": "nostr",
+				"type": "url",
+				"label": "Nostr"
 			},
 			{
 				"name": "pinterest",
@@ -275,6 +360,11 @@
 				"name": "tiktok",
 				"type": "url",
 				"label": "TikTok"
+			},
+			{
+				"name": "whop",
+				"type": "url",
+				"label": "Whop"
 			},
 			{
 				"name": "wordpress",

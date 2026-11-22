@@ -66,6 +66,67 @@
 				]
 			},
 			{
+				"name": "devto",
+				"type": "collection",
+				"label": "Dev.to",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
 				"name": "discord",
 				"type": "collection",
 				"label": "Discord",
@@ -249,9 +310,131 @@
 				]
 			},
 			{
+				"name": "hashnode",
+				"type": "collection",
+				"label": "Hashnode",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
 				"name": "instagram",
 				"type": "collection",
 				"label": "Instagram",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "lemmy",
+				"type": "collection",
+				"label": "Lemmy",
 				"spec": [
 					{
 						"name": "daily",
@@ -371,9 +554,131 @@
 				]
 			},
 			{
+				"name": "listmonk",
+				"type": "collection",
+				"label": "Listmonk",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
 				"name": "mastodon",
 				"type": "collection",
 				"label": "Mastodon",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "nostr",
+				"type": "collection",
+				"label": "Nostr",
 				"spec": [
 					{
 						"name": "daily",
@@ -740,6 +1045,67 @@
 				"name": "tiktok",
 				"type": "collection",
 				"label": "TikTok",
+				"spec": [
+					{
+						"name": "daily",
+						"type": "collection",
+						"label": "Daily",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "hourly",
+						"type": "collection",
+						"label": "Hourly",
+						"spec": [
+							{
+								"name": "used",
+								"type": "uinteger",
+								"label": "Used"
+							},
+							{
+								"name": "limit",
+								"type": "uinteger",
+								"label": "Limit"
+							},
+							{
+								"name": "remaining",
+								"type": "uinteger",
+								"label": "Remaining"
+							}
+						]
+					},
+					{
+						"name": "note",
+						"type": "text",
+						"label": "Note"
+					},
+					{
+						"name": "max_file_size_mb",
+						"type": "number",
+						"label": "Maximum file size (MB)"
+					}
+				]
+			},
+			{
+				"name": "whop",
+				"type": "collection",
+				"label": "Whop",
 				"spec": [
 					{
 						"name": "daily",

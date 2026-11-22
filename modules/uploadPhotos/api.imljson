@@ -18,6 +18,8 @@
 		"facebook_page_id": "{{parameters.facebook_page_id}}",
 		"target_linkedin_page_id": "{{parameters.target_linkedin_page_id}}",
 		"gbp_location_id": "{{parameters.gbp_location_id}}",
+		"lemmy_url": "{{parameters.lemmy_url}}",
+		"listmonk_draft": "{{if(parameters.listmonk_draft, true, undefined)}}",
 		"async_upload": true,
 		"photo_urls": "{{parameters.photo_urls}}"
 	},
